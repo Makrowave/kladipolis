@@ -1,0 +1,32 @@
+#Minecolonies blueprints
+blueprints/*
+!blueprints/kladipolis
+
+#User settings
+options.txt
+
+#Crash reports and other logs
+crash-reports/*
+logs/*
+command_history.txt
+
+#Temp downloads for mod assets and server packs etc
+downloads/*
+
+#Curseforge thingy
+.curseclient
+
+#Last jsons
+minecraftinstance.json
+realms_persistence.json
+usercache.json
+usernamecache.json
+
+#Saves
+saves/*
+
+#Resourcepacks too - load them with openloader if they are modpack significant
+resourcepacks/*
+
+#Mod jars
+mods/*
