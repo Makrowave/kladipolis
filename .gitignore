@@ -21,7 +21,7 @@ minecraftinstance.json
 realms_persistence.json
 usercache.json
 usernamecache.json
-
+user-prefs.json
 #Saves
 saves/*
 
@@ -30,3 +30,7 @@ resourcepacks/*
 
 #Mod jars
 mods/*
+.probe
+
+#Local
+config/jei/world/*
