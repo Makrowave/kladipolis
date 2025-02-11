@@ -34,3 +34,4 @@ mods/*
 
 #Local
 config/jei/world/*
+local/*
