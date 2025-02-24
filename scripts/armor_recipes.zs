@@ -11,35 +11,133 @@ import crafttweaker.api.ingredient.IIngredientWithAmount;
 import crafttweaker.api.item.component.ItemAttributeModifiersBuilder;
 import crafttweaker.api.entity.equipment.EquipmentSlot;
 //Definition of modifier builders
-val slow_chest = ItemAttributeModifiers.builder()
+val slowHeadHeavy = ItemAttributeModifiers.builder()
+    .add(<attribute:minecraft:generic.movement_speed>,
+    AttributeModifier.create(<resource:minecraft:movement_speed.helmet>, -0.01, <constant:minecraft:attribute/operation:add_value>),
+    <constant:minecraft:equipmentslot/group:head>).build();
+val slowChestHeavy = ItemAttributeModifiers.builder()
     .add(<attribute:minecraft:generic.movement_speed>,
     AttributeModifier.create(<resource:minecraft:movement_speed.chest>, -0.01, <constant:minecraft:attribute/operation:add_value>),
-    <constant:minecraft:equipmentslot/group:chest>);
-val slow_leggings = ItemAttributeModifiers.builder()
+    <constant:minecraft:equipmentslot/group:chest>).build();
+val slowLegsHeavy = ItemAttributeModifiers.builder()
     .add(<attribute:minecraft:generic.movement_speed>,
         AttributeModifier.create(<resource:minecraft:movement_speed.leggings>, -0.02, <constant:minecraft:attribute/operation:add_value>),
-        <constant:minecraft:equipmentslot/group:legs>);
-val slow_boots = ItemAttributeModifiers.builder()
+        <constant:minecraft:equipmentslot/group:legs>).build();
+val slowFeetHeavy = ItemAttributeModifiers.builder()
     .add(<attribute:minecraft:generic.movement_speed>,
     AttributeModifier.create(<resource:minecraft:movement_speed.boots>, -0.01, <constant:minecraft:attribute/operation:add_value>),
-    <constant:minecraft:equipmentslot/group:feet>);
+    <constant:minecraft:equipmentslot/group:feet>).build();
+
+
+val slowHeadMedium = ItemAttributeModifiers.builder()
+    .add(<attribute:minecraft:generic.movement_speed>,
+    AttributeModifier.create(<resource:minecraft:movement_speed.helmet>, -0.005, <constant:minecraft:attribute/operation:add_value>),
+    <constant:minecraft:equipmentslot/group:head>).build();
+val slowChestMedium = ItemAttributeModifiers.builder()
+    .add(<attribute:minecraft:generic.movement_speed>,
+    AttributeModifier.create(<resource:minecraft:movement_speed.chest>, -0.005, <constant:minecraft:attribute/operation:add_value>),
+    <constant:minecraft:equipmentslot/group:chest>).build();
+val slowLegsMedium = ItemAttributeModifiers.builder()
+    .add(<attribute:minecraft:generic.movement_speed>,
+        AttributeModifier.create(<resource:minecraft:movement_speed.leggings>, -0.01, <constant:minecraft:attribute/operation:add_value>),
+        <constant:minecraft:equipmentslot/group:legs>).build();
+val slowFeetMedium = ItemAttributeModifiers.builder()
+    .add(<attribute:minecraft:generic.movement_speed>,
+    AttributeModifier.create(<resource:minecraft:movement_speed.boots>, -0.005, <constant:minecraft:attribute/operation:add_value>),
+    <constant:minecraft:equipmentslot/group:feet>).build();
+
+
+val slowHeadCuirassier = ItemAttributeModifiers.builder()
+    .add(<attribute:minecraft:generic.movement_speed>,
+    AttributeModifier.create(<resource:minecraft:movement_speed.helmet>, -0.005, <constant:minecraft:attribute/operation:add_value>),
+    <constant:minecraft:equipmentslot/group:head>).build();
+val slowChestCuirassier = ItemAttributeModifiers.builder()
+    .add(<attribute:minecraft:generic.movement_speed>,
+    AttributeModifier.create(<resource:minecraft:movement_speed.chest>, -0.03, <constant:minecraft:attribute/operation:add_value>),
+    <constant:minecraft:equipmentslot/group:chest>).build();
 
 //Definition of items to receive modifiers in certain groups
 var heavyArmor = {
     "head": [
-        <item:magistuarmory:bascinet>
+        <item:magistuarmory:bascinet>,
+        <item:minecraft:iron_helmet>,
+        // <item:magistuarmory:maximilian_helmet>,
+        <item:magistuarmory:stechhelm>,
+        <item:magistuarmory:armet>,
+        <item:magistuarmory:sallet>,
+        <item:magistuarmory:grand_bascinet>,
+        <item:magistuarmory:ceremonialarmet>
     ],
     "chest": [
         <item:magistuarmory:xivcenturyknight_chestplate>,
-        <item:minecraft:iron_chestplate>
+        <item:minecraft:iron_chestplate>,
+        // <item:magistuarmory:maximilian_chestplate>,
+        <item:magistuarmory:jousting_chestplate>,
+        <item:magistuarmory:knight_chestplate>,
+        <item:magistuarmory:gothic_chestplate>,
+        <item:magistuarmory:kastenbrust_chestplate>,
+        <item:magistuarmory:ceremonial_chestplate>
+
     ],
     "legs": [
-        <item:magistuarmory:xivcenturyknight_leggings>
+        <item:magistuarmory:xivcenturyknight_leggings>,
+        <item:minecraft:iron_leggings>,
+        // <item:magistuarmory:maximilian_leggings>,
+        <item:magistuarmory:jousting_leggings>,
+        <item:magistuarmory:knight_leggings>,
+        <item:magistuarmory:gothic_leggings>,
+        <item:magistuarmory:kastenbrust_leggings>
+
     ],
     "feet": [
-        <item:magistuarmory:xivcenturyknight_boots>
+        <item:magistuarmory:xivcenturyknight_boots>,
+        <item:minecraft:iron_boots>,
+        // <item:magistuarmory:maximilian_boots>,
+        <item:magistuarmory:jousting_boots>,
+        <item:magistuarmory:knight_boots>,
+        <item:magistuarmory:gothic_boots>,
+        <item:magistuarmory:kastenbrust_boots>,
+        <item:magistuarmory:ceremonial_boots>
+
     ]
 };
+
+var mediumArmor = {
+    "head": [
+        <item:magistuarmory:kettlehat>,
+        <item:magistuarmory:chainmail_helmet>,
+        <item:magistuarmory:norman_helmet>,
+        <item:magistuarmory:shishak>,
+        <item:magistuarmory:face_helmet>,
+        <item:magistuarmory:greathelm>
+    ],
+    "chest": [
+        <item:magistuarmory:platemail_chestplate>,
+        <item:magistuarmory:chainmail_chestplate>,
+        <item:magistuarmory:brigandine_chestplate>,
+        <item:magistuarmory:crusader_chestplate>,
+        <item:magistuarmory:lamellar_chestplate>
+    ],
+    "legs": [
+        <item:magistuarmory:chainmail_leggings>,
+        <item:magistuarmory:platemail_leggings>,
+        <item:magistuarmory:crusader_leggings>
+
+    ],
+    "feet": [
+        <item:magistuarmory:platemail_boots>
+    ],
+};
+
+var cuirassArmor = {
+    "head" : [
+        <item:magistuarmory:cuirassier_helmet>
+    ],
+    "chest": [
+        <item:magistuarmory:cuirassier_chestplate>
+    ]
+};
+
 
 /**
     Takes list of IItemStack as input and returns list of recipeIds.
@@ -62,7 +160,8 @@ val getRecipeNames as function(itemList as stdlib.List<IItemStack>) as stdlib.Li
 };
 
 /**
-    Takes list of IItemStack and modifier builder(!) as inputs.
+    Well doesn't take list but does the same just to singular one
+    Takes list of IItemStack and modifier as inputs.
     For every item:
         reads and determines type of modifiers,
         adds them to builder
@@ -70,8 +169,7 @@ val getRecipeNames as function(itemList as stdlib.List<IItemStack>) as stdlib.Li
         creates pair of prev item and item with effect
     Returns pair of [prevItem as IItemStack, modifiedItem as IItemStack].
 */
-val getReplacementPairs as function(itemList as stdlib.List<IItemStack>, modifier as ItemAttributeModifiersBuilder) as stdlib.List<stdlib.List<IItemStack>> =
-    (itemList as stdlib.List<IItemStack>, modifier as ItemAttributeModifiersBuilder) => 
+public function getReplacementPair(item as IItemStack, modifier as ItemAttributeModifiers) as stdlib.List<IItemStack>
 {
     //All possible armor slots
     val slotsPossible = [
@@ -80,39 +178,48 @@ val getReplacementPairs as function(itemList as stdlib.List<IItemStack>, modifie
         <constant:minecraft:equipmentslot:legs>,
         <constant:minecraft:equipmentslot:feet>
     ] as EquipmentSlot[];
-    var result = new stdlib.List<stdlib.List<IItemStack>>;
-    for item in itemList {
-        var pair = new stdlib.List<IItemStack>;
-        val slotGroup = modifier.build().modifiers[0].slot;
-        //For every slot possible for armor do application of modifiers
-        for slot in slotsPossible {
-            var attrs = item.getAttributes(slot);
-            for key, value in attrs {
-                for attr in value {
-                    modifier.add(
-                        key,
-                        attr,
-                        slotGroup);
-                }
+    var modifierBuilder = ItemAttributeModifiers.builder();
+    val modEntry = modifier.modifiers;
+    for entry in modEntry {
+        modifierBuilder.add(entry.attribute, entry.modifier, entry.slot);
+    }
+    var pair = new stdlib.List<IItemStack>;
+    val slotGroup = modifierBuilder.build().modifiers[0].slot;
+    //For every slot possible for armor do application of modifiers
+    for slot in slotsPossible {
+        var attrs = item.getAttributes(slot);
+        for key, value in attrs {
+            for attr in value {
+                modifierBuilder.add(
+                    key,
+                    attr,
+                    slotGroup);
             }
         }
+    }
 
-        val builtMod = modifier.build();
-        
-        val editedItem = item.withAttributeModifiers(builtMod);
-        pair.add(item);
-        pair.add(editedItem);
-        result.add(pair);
+    var builtMod = modifierBuilder.build();
+    val editedItem = item.withAttributeModifiers(builtMod);
+    pair.add(item);
+    pair.add(editedItem);
+    return pair;
+}
+
+public function getReplacementPairs(itemList as stdlib.List<IItemStack>, modifier as ItemAttributeModifiers) as stdlib.List<stdlib.List<IItemStack>>
+{
+    var result = new stdlib.List<stdlib.List<IItemStack>>;
+    for item in itemList {
+        result.add(getReplacementPair(item, modifier));
     }
     return result;
-};
+}
 
 /**
     Takes list of items, does modifier replacements, filters recipes for them
     and finally modifies the recipes so they result in modified item.
 */
-val replace as function(itemList as stdlib.List<IItemStack>, modifier as ItemAttributeModifiersBuilder) as void =
-    (itemList as stdlib.List<IItemStack>, modifier as ItemAttributeModifiersBuilder) =>
+val replace as function(itemList as stdlib.List<IItemStack>, modifier as ItemAttributeModifiers) as void =
+    (itemList as stdlib.List<IItemStack>, modifier as ItemAttributeModifiers) =>
 {
     val filteringRule = NameFilteringRule.anyOf(getRecipeNames(itemList));
     val itemPairs = getReplacementPairs(itemList, modifier);
@@ -126,12 +233,17 @@ val replace as function(itemList as stdlib.List<IItemStack>, modifier as ItemAtt
 };
 
 //Replacements
-replace(heavyArmor["chest"], slow_chest);
-replace(heavyArmor["legs"], slow_leggings);
-replace(heavyArmor["feet"], slow_boots);
+replace(heavyArmor["head"], slowHeadHeavy);
+replace(heavyArmor["chest"], slowChestHeavy);
+replace(heavyArmor["legs"], slowLegsHeavy);
+replace(heavyArmor["feet"], slowFeetHeavy);
 
+replace(mediumArmor["head"], slowHeadMedium);
+replace(mediumArmor["chest"], slowChestMedium);
+replace(mediumArmor["legs"], slowLegsMedium);
+replace(mediumArmor["feet"], slowFeetMedium);
 
-
-    
+replace(cuirassArmor["head"], slowHeadCuirassier);
+replace(cuirassArmor["chest"], slowChestCuirassier);
 
 
