@@ -1,0 +1,126 @@
+{
+	chapter.0A2DBF378F2A1879.title: "MineColonies"
+	chapter.34D1C2FE372B1952.title: "Industrial Revolution..."
+	chapter.43AB7BE0FE30F34A.title: "Cogs"
+	quest.06078963DD0ACCDD.title: "Feel Good"
+	quest.0E4D0D986890EFF5.title: "Way of the Water"
+	quest.158E2CAF259C0AFF.title: "Bear With Me"
+	quest.15E015FA6D12FE09.quest_desc: [
+		"Well, you didn't really have to invent steam engine before alloys - but here we are."
+		"Your next step is to make brass - it will enable you to create more sophisticated Create machines and &lWirecutters&r."
+		"In order to do that you need Alloy Kiln - 2x2 multiblock. In order to do that you need to research PLACEHOLDER technology and order Kiln Bricks from Stonemason (Once you get Brass you can make the bricks yourself. Place 8 bricks, use Engineer's Hammer and voila!"
+		"Another useful thing is that now you don't need to rely on Colonists for Steel production."
+	]
+	quest.1D5D6193C974F51C.quest_desc: [
+		"Welcome to Kladipolis! First step to advance further than iron age is to create a town. Craft a townhall and find a suitable place to settle down - settle down in neutral biomes like plains or forests for moderate climate or risk freezing and starving in winter biomes for extra minerals, risk deserts for later oil fields or settle down in more friendly (but still hot) for abundand food supplies."
+		""
+		"Mentioned mechanics come from our ore generation tweaking, Tough as nails (climate system) and Serene Seasons for... well seasons and crop rotation."
+		""
+		"If early in the quest tree you will be having troubles with &eplacing buildings outside of colony:"
+		"{ \"text\": \"Read about Guard Towers\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"50FA8226DCE8E0F8\" } }"
+		""
+		""
+		""
+		"If something will be unclear about minecolonies during these quests - you can always refer to https://minecolonies.com/wiki/"
+	]
+	quest.1D5D6193C974F51C.quest_subtitle: "Or girl or the other options"
+	quest.1D5D6193C974F51C.title: "Smalltown Boy"
+	quest.1E225559CDD6484C.title: "Bottling Machine"
+	quest.22F3DBCB31E7C53D.title: "Crusher"
+	quest.30627A5037147DB2.quest_desc: [
+		"If something below isn't clear or sufficient for you, please refer to &6Engineer's Manual&r."
+		""
+		"Now that you can store power and generate it, it would be nice to transfer it. To do that you can use &aConnectors&r and &aRelays&r."
+		"&aConnectors&r can be placed on &9input&r/&6output&r sides of blocks and will act accordingly to the side. You can place &aRelays&r on walls to make pivot points for the wire. You can't use &aRelays&r as &aConnectors&r."
+		"To connect 2 points simply right click one of them with a &aWire&r and then right click second one."
+		""
+		"For a success:"
+		"- Connectors can't be too far away from each other"
+		"- Path between connectors can't be obstructed"
+		"- Connectors must be of the same tier (LV, MV, HV)"
+		""
+		"Example of a connection:"
+		" "
+		"{image:packutil:textures/quests/connection.png width:100 height:100 align:1}"
+		""
+		"In Immersive Engineering &9Inputs are marked with blue&r and &6Outputs with Orange&r. This also applies to items and fluids. Sometimes blocks only have an &6Output&r (&aKinetic Dynamo&r, &aDiesel Generator&r) or an &9Input&r (&aExcavator&r). In these cases the colour is not marked - it's just a piece of copper on the texture."
+	]
+	quest.30627A5037147DB2.title: "Linked in"
+	quest.3B5C38FA372033EE.quest_desc: [
+		"Now you can craft engineer's wire cutters. You can... cut wires with them. Later on you'll be able to mold wires with press."
+		"Now your objective is to craft some wires, make wire coils and finally make a coil block - you'll need it later for different recipes."
+	]
+	quest.3B5C38FA372033EE.title: "Wired"
+	quest.3F3D7DB38881209F.title: "Stainless Mixer"
+	quest.452F330E930CD81C.title: "People Are Losing Their Jobs"
+	quest.4D98868C475D51EC.title: "Diggy Diggy Hole"
+	quest.4F3219E1D6CD8F87.quest_desc: ["Since you don't have access to mechanical belts, the recommended way to transfer rotation is through chain drives."]
+	quest.50FA8226DCE8E0F8.quest_desc: [
+		"Guard towers are useful buildings in the colony. They generate guard jobs - villagers that will automatically attack mobs on their whitelist (which you can change) to defend the colony."
+		""
+		"Furthermore, later upgrades of guard towers claim more land around the colony, so you can build a guard tower every few buildings if you need to place a huge building or you are planning a town and laying grounds for buildings."
+		""
+		"From the guard tower menu you can also assign guards to guard a position, patrol automatically or set a route. So one idea of using this is to build walls around the city, place some archers on them and guards on the gates to fend off &4invasions&r."
+		""
+		"Later on when barracks are placed you can rally guards to aid you inside or outside the village with the help of enchanter's scrolls. "
+	]
+	quest.50FA8226DCE8E0F8.title: "Border Control"
+	quest.52EFFE716EAB1DBC.title: "Actually Useful"
+	quest.54421091E947FDDD.title: "Not the Soda"
+	quest.5450190E1E09CB43.quest_desc: ["While press is usually used for automating recipes, here it is primarly used for making of metal sheets."]
+	quest.5450190E1E09CB43.title: "Bench Press"
+	quest.590974B30C42DB37.quest_desc: [
+		"With more power consumption comes more responsibility... Or something along the lines."
+		""
+		"Craft better tier wires and upgrade the Accumulator. "
+	]
+	quest.590974B30C42DB37.title: "More Power"
+	quest.5977EC6811A4C0B3.quest_desc: [""]
+	quest.5977EC6811A4C0B3.title: "Changing the Tide"
+	quest.5A010900D45EE2F4.title: "Blasting Away"
+	quest.5C7BAA6EF06D86BE.quest_desc: ["Finish research on Andesite Alloy in university and order your blacksmith to craft some. Later on you will be able to make it using machines. Now, you've offically started Create! But don't worry - colonists will still be relevant for gaining resources."]
+	quest.5C7BAA6EF06D86BE.title: "Budget Steel"
+	quest.65A9D3EC8E8613B4.title: "Metal Press"
+	quest.6C9A33851F10DD9D.quest_desc: [
+		"Builder is core job in minecolonies."
+		"Quick breakdown of how building progression works:"
+		""
+		"- You need a builder hut to build a building."
+		""
+		"- Builder can build new buildings or upgrade old - to build or upgrade a building use \"Building Options\" tab in building block."
+		""
+		"- To know placement of the building use building wand to place a building block. In the interface you choose building from categories, choose placement and can change level of building to preview end result (&eyou always place level 1 building&r)"
+		""
+		"- To upgrade a building, builder's hut has to have same or higher level of the building. If you have two level 5 upgrades but only 1 level 5 builder's hut, builder has to finish building previous building first."
+		""
+		"- Supply building materials to builder directly by talking to them or placing them in the racks or builder's hut inventory. Later on you can build warehouse and courier's hut to automate resource delivery."
+		""
+		"- Builders (as other npcs) need tools. Low level builder will only use wooden tools at the beginning, so he will clear terrain really slowly and might not be able to clear leaves (shears are iron tier or I will correct it later). This brings us to the next point..."
+		""
+		"- You can craft &6builder goggles&r! You can see buildings under construction and can help place needed blocks or break terrain by yourself. Some block though might need correct orientation so builder has to place them anyways."
+		""
+		"And that's it. Yeah I lied, it wasn't that quick after all."
+	]
+	quest.6C9A33851F10DD9D.title: "Builder friend joins the server"
+	quest.6EB956B611E794DF.title: "I'm a Barbie Girl"
+	quest.75740062D4D5DBCB.title: "Refinery"
+	quest.764CFF3526DC1457.quest_desc: [
+		"Well it seems that water wheels are really common in minecraft modding. So make another one. This time to harness energy from it place a &6Kinetic Dynamo&r next to the middle of &7Water Wheel&r (Make sure that the side with a hole is facing the &7Wheel&r). "
+		""
+		""
+		"Also - unlike Create's water wheel, this one has to be surrounded by water to work most efficiently."
+		"Try building it like this:"
+		""
+		"{image:packutil:textures/quests/waterwheel.png width:100 height:100 align:1}"
+	]
+	quest.764CFF3526DC1457.title: "Deja vu"
+	quest.7C8C8DC9D70CAF65.quest_desc: [
+		"Same gimmick as with Water Wheel - place it next to Kinetic Dynamo."
+		"Then you can apply &6Windmill Sail&r so it generates more power."
+		""
+		"Windmill is more efficient than Water Wheel, unless you stack 3 of the latter."
+		""
+		"But there is one more thing about Windmill - it generates around tripple of it's energy output during thunderstorm - making it even more efficient than stacked Water Wheels."
+	]
+	quest.7C8C8DC9D70CAF65.title: "Feel Good Inc."
+}

@@ -1,0 +1,76 @@
+# Mekanism whitelist
+- Enrichment chamber - ale wywalić receptury na podwajanie rud, barwników
+- osmium compressor
+- combiner
+- crusher - pocket crusher z immersive - zwiększyć zużycie prądu
+- metallurgic infuser
+- purification chamber - wywalić trojenie rud
+- energised smelter - piec na prąd, zwiekszyc power consumption jesli inny nie istnieje
+- teleporter
+- fluidic plenisher
+- personal barrel - zmień recepturę na shulkery
+- personal chest - tak samo
+- rotary condensator
+- chemical oxidizer
+- chemical infuser
+- chemical injection chamber - zastanowić się nad duplikowaniem rud
+- electrolytic separator
+- precision sawmill
+- chemical dissolution chamber
+- chemical washer
+- chemical crystallizer
+- seismic vibrator
+- pressurized reaction chamber
+- isotopic centrifuge
+- nutritional liquifier - jakies puchy zrobic i zmienic rozmiar canteen i nazwe na konserwe
+- solar neutron activator
+- oredintificator
+- resistive heater
+- fuelwood heater
+- pigment extractor
+- pigment mixer
+- painting machine
+- dimensional stabilizer
+
+# Mekanism blacklist
+- digital miner
+- electric pump
+- quantum entagloporter
+- formulaic assemblicator
+- heat generator
+
+# Quantum suit
+- modification station
+
+# Dziwne rzeczy
+- antiprotonic nucleosynthesizer
+- sps casing
+- sps port
+- supercharged coil
+
+- QIO
+
+
+
+# Prąd
+
+## Immersive
+Diesel 4096
+Waterwheel 25
+Thermoelectric 42 (blue ice + uranium)
+Portable 256
+
+## Mekanism
+Heat generator - 44
+Advanced solar generator - 105
+Solar generator - 17.5
+Gas-burning generator -  Ethylene: 72 190 Hydrogen 20 480
+Bio-generator - 140
+Wind-generator - y:67 - 46 y:136 - 78
+turbina - za dużo
+reaktor - za dużo ciepła
+fusion reactor - prawdopodobnie w chuj, ale sci-fi więc albo drogi albo usuń
+
+## Ad astra
+Coal - 10
+Solar - 15

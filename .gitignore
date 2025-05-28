@@ -35,3 +35,7 @@ mods/*
 #Local
 config/jei/world/*
 local/*
+
+
+ct_dumps
+debug

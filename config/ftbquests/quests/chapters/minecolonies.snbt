@@ -1,0 +1,248 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "minecolonies"
+	group: ""
+	id: "0A2DBF378F2A1879"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1D5D6193C974F51C"
+			shape: "gear"
+			size: 1.4d
+			tasks: [{
+				id: "0819C8A2D62775E9"
+				item: { count: 1, id: "minecolonies:blockhuttownhall" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1D5D6193C974F51C"]
+			id: "6C9A33851F10DD9D"
+			rewards: [{
+				id: "3C3F3909ACE5236C"
+				item: {
+					count: 1
+					id: "minecolonies:build_goggles"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A60754AFF3D6290"
+				item: { count: 1, id: "minecolonies:blockhutbuilder" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5DC6A82940D92AF9"]
+			id: "514A0A0FE397290E"
+			tasks: [
+				{
+					id: "055224A28CD7831D"
+					item: { count: 1, id: "minecolonies:blockhutwarehouse" }
+					type: "item"
+				}
+				{
+					id: "2640ECEAA07F55B9"
+					item: { count: 1, id: "minecolonies:blockhutdeliveryman" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6C9A33851F10DD9D"]
+			id: "4D98868C475D51EC"
+			tasks: [{
+				id: "08B9D93FDA27B0F7"
+				item: { count: 1, id: "minecolonies:blockhutminer" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6C9A33851F10DD9D"]
+			id: "5DC6A82940D92AF9"
+			tasks: [{
+				id: "245DC2484D5F5746"
+				item: { count: 1, id: "minecolonies:blockhutfarmer" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6C9A33851F10DD9D"]
+			id: "38AB0458FF2F29A7"
+			tasks: [{
+				id: "30ECC4431292D23A"
+				item: { count: 1, id: "minecolonies:blockhutlumberjack" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"514A0A0FE397290E"
+				"4D98868C475D51EC"
+				"38AB0458FF2F29A7"
+			]
+			id: "195DC6E08F93DB92"
+			tasks: [{
+				id: "4EF0299FB45DAD1B"
+				item: { count: 1, id: "minecolonies:blockhutuniversity" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			id: "4325EF84532540EF"
+			tasks: [{
+				id: "4531A19B3AEB6493"
+				item: { count: 1, id: "minecolonies:blockhutsmeltery" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			id: "7D782243A3CBCAB8"
+			tasks: [{
+				id: "5C716056AD4668FE"
+				item: { count: 1, id: "minecolonies:blockhutblacksmith" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			id: "6CA7B879251A3557"
+			tasks: [{
+				id: "5575EACC8EF54071"
+				item: { count: 1, id: "minecolonies:blockhutsawmill" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "2D09A0DA1FF57527"
+			tasks: [{
+				id: "3165D453FC42D7BE"
+				item: { count: 1, id: "minecolonies:blockhutstonesmeltery" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			id: "4DA6C941A9F5EB31"
+			tasks: [{
+				id: "2CED98E263B92174"
+				item: { count: 1, id: "minecolonies:blockhutcomposter" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "141F0275A91533FE"
+			tasks: [{
+				id: "633C9ED1D420EE51"
+				item: { count: 1, id: "minecolonies:blockhutflorist" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			id: "06A50AE6FE3756EF"
+			tasks: [{
+				id: "11D5EF18C43DA70B"
+				item: { count: 1, id: "minecolonies:blockhutdyer" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			id: "32C8F8345CE13095"
+			tasks: [{
+				id: "0A3ED48FB293B8D9"
+				item: { count: 1, id: "minecolonies:blockhutglassblower" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			id: "74CF425822ED2F55"
+			tasks: [{
+				id: "1D72206D0170507E"
+				item: { count: 1, id: "minecolonies:blockhutstonemason" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			id: "50FA8226DCE8E0F8"
+			tasks: [{
+				id: "603A7711044F2AE9"
+				item: { count: 1, id: "minecolonies:blockhutguardtower" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			id: "3AC9F2F697D4C7C9"
+			tasks: [{
+				id: "6592F5F777FA23B3"
+				item: { count: 1, id: "minecolonies:blockhutbarracks" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			id: "608B4A31219980B9"
+			tasks: [{
+				id: "7481C91D14AA1A0A"
+				item: { count: 1, id: "minecolonies:blockhutenchanter" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			id: "413A23F60E3178DE"
+			tasks: [{
+				id: "5A72A1D51F605DD6"
+				item: { count: 1, id: "minecraft:packed_ice" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			id: "475199A419E6C394"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "542F4CC1BF6AF7C7"
+				type: "dimension"
+			}]
+			x: 14.5d
+			y: -1.5d
+		}
+	]
+}
