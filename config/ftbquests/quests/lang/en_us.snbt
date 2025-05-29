@@ -3,7 +3,12 @@
 	chapter.34D1C2FE372B1952.title: "Industrial Revolution..."
 	chapter.43AB7BE0FE30F34A.title: "Cogs"
 	quest.06078963DD0ACCDD.title: "Feel Good"
+	quest.06A50AE6FE3756EF.quest_desc: ["For the final step build a dyer's hut. Now you can dye wool, candles, glass, beds and other things, &lautomatically&r."]
+	quest.06A50AE6FE3756EF.title: "We all dye sooner or later"
 	quest.0E4D0D986890EFF5.title: "Way of the Water"
+	quest.140CF9352612D2A7.quest_desc: ["Plantations are farms but for things that don't grow on fields such as sugarcane, cacti or kelp."]
+	quest.141F0275A91533FE.quest_desc: ["Some things require dyed blocks. To set up full infrastructure for tha t build a flower shop first so you have something to make dyes from."]
+	quest.141F0275A91533FE.title: "This doesn't"
 	quest.158E2CAF259C0AFF.title: "Bear With Me"
 	quest.15E015FA6D12FE09.quest_desc: [
 		"Well, you didn't really have to invent steam engine before alloys - but here we are."
@@ -11,6 +16,31 @@
 		"In order to do that you need Alloy Kiln - 2x2 multiblock. In order to do that you need to research PLACEHOLDER technology and order Kiln Bricks from Stonemason (Once you get Brass you can make the bricks yourself. Place 8 bricks, use Engineer's Hammer and voila!"
 		"Another useful thing is that now you don't need to rely on Colonists for Steel production."
 	]
+	quest.195DC6E08F93DB92.quest_desc: [
+		"University is crucial for progression. In Kladipolis we decided that even later on when coming to industrial age player shouldn't magically know what to craft so the later machines will still require research."
+		""
+		"Research system is simple - there are multiple technology trees in which you simply press research when enough materials are gathered and wait. You also need to &eupgrade university&r to be able to research techs later in tech tree."
+		""
+		"On the top of research UI there are research times written:"
+		"&eLevels and time:&r"
+		"1 - 0.5h"
+		"2 - 1h"
+		"3 - 2h"
+		"4 - 4h"
+		"5 - 8h"
+		"6 - 16h (it still requires university level 5 so don't worry)"
+		""
+		"With each level of university more researchers can work there. They enable you to research more technologies simultaneously."
+		""
+		"Unfortunetly you cannot speed up research process. But there are 2 skills of colonists which help: &aknowledge&r and &9mana&r."
+		""
+		"With university level 3 your researchers can research technologies when you are offline. &mNot sure how it works for servers&r but for singleplayer worlds when you log off you gain time depending on skills mentioned previously."
+		"&9Mana&r - this skill increases the maximum ammount of time in which researchers research technologies when you are offline."
+		"&aKnowledge&r - this skill increases the amount of time gained per minute offline (it isn't 1:1 ratio)."
+		""
+		"There are multiple tech trees. Generally they are named after ages - you &edon't have to research everything&r, so for example you can leave boosts for coloninsts while researching technologies only."
+	]
+	quest.195DC6E08F93DB92.title: "Student loan"
 	quest.1D5D6193C974F51C.quest_desc: [
 		"Welcome to Kladipolis! First step to advance further than iron age is to create a town. Craft a townhall and find a suitable place to settle down - settle down in neutral biomes like plains or forests for moderate climate or risk freezing and starving in winter biomes for extra minerals, risk deserts for later oil fields or settle down in more friendly (but still hot) for abundand food supplies."
 		""
@@ -27,6 +57,13 @@
 	quest.1D5D6193C974F51C.title: "Smalltown Boy"
 	quest.1E225559CDD6484C.title: "Bottling Machine"
 	quest.22F3DBCB31E7C53D.title: "Crusher"
+	quest.2AE0249BF9F3123A.quest_desc: [
+		"As you might notice some names for the quests are not only some popular references but also really unoriginal (I mean it's literally an advancement in game)."
+		""
+		"But about fishing hut. This quest is optional since you might settle on desert. Fisher catches fish. And treasure. That's it."
+	]
+	quest.2AE0249BF9F3123A.title: "Fishy business"
+	quest.2D09A0DA1FF57527.quest_desc: ["Aaaaand (if you've read the right side of these quests) same here but for smelting stone."]
 	quest.30627A5037147DB2.quest_desc: [
 		"If something below isn't clear or sufficient for you, please refer to &6Engineer's Manual&r."
 		""
@@ -46,14 +83,31 @@
 		"In Immersive Engineering &9Inputs are marked with blue&r and &6Outputs with Orange&r. This also applies to items and fluids. Sometimes blocks only have an &6Output&r (&aKinetic Dynamo&r, &aDiesel Generator&r) or an &9Input&r (&aExcavator&r). In these cases the colour is not marked - it's just a piece of copper on the texture."
 	]
 	quest.30627A5037147DB2.title: "Linked in"
+	quest.32C8F8345CE13095.quest_desc: ["Aaaaaand same here but for glass and crafting glass in general."]
+	quest.32C8F8345CE13095.title: "Building automation part III"
 	quest.3B5C38FA372033EE.quest_desc: [
 		"Now you can craft engineer's wire cutters. You can... cut wires with them. Later on you'll be able to mold wires with press."
 		"Now your objective is to craft some wires, make wire coils and finally make a coil block - you'll need it later for different recipes."
 	]
 	quest.3B5C38FA372033EE.title: "Wired"
 	quest.3F3D7DB38881209F.title: "Stainless Mixer"
+	quest.413A23F60E3178DE.quest_desc: [
+		"Tough as Nails adds body heat mechanics. &cNether&r is rather hot. While exploring cold biomes is easy with wooly clothes, there are no cooling clothes. Here comes magic."
+		""
+		"Collect some &9packed ice&r and let &denchanter&r craft you magic cooling armor."
+	]
+	quest.413A23F60E3178DE.title: "Bing Chilling"
 	quest.452F330E930CD81C.title: "People Are Losing Their Jobs"
+	quest.475199A419E6C394.quest_desc: [
+		"Well, well, well..."
+		"Big moment has come. Enter the &cNether&r and collect materials for builder's hut. Or if you were lucky and found ruined portal you might already be behind this step..."
+		""
+		"Oh well, at least &dEnd&r can't be spedrun (at least I believe so)."
+	]
+	quest.475199A419E6C394.title: "Level 3"
 	quest.4D98868C475D51EC.title: "Diggy Diggy Hole"
+	quest.4DA6C941A9F5EB31.quest_desc: ["Composter's hut turns plants, seeds and saplings into compost which can help you or rather your &afarmers&r grow crops. It's just like normal composting but you get compose instead of bonemeal. Last time I check plants aren't made of bones."]
+	quest.4DA6C941A9F5EB31.title: "That stinks"
 	quest.4F3219E1D6CD8F87.quest_desc: ["Since you don't have access to mechanical belts, the recommended way to transfer rotation is through chain drives."]
 	quest.50FA8226DCE8E0F8.quest_desc: [
 		"Guard towers are useful buildings in the colony. They generate guard jobs - villagers that will automatically attack mobs on their whitelist (which you can change) to defend the colony."
@@ -65,6 +119,8 @@
 		"Later on when barracks are placed you can rally guards to aid you inside or outside the village with the help of enchanter's scrolls. "
 	]
 	quest.50FA8226DCE8E0F8.title: "Border Control"
+	quest.5295726E6A558F86.quest_desc: ["Restaurant is the place to go for villagers to eat food. Cooks can also craft advanced dishes. You can teach them recipes from Farmer's delight to make these dishes. Well for them to cook they need ingredients like meat or fish. So next step is making other farms."]
+	quest.5295726E6A558F86.title: "3 michelin stars"
 	quest.52EFFE716EAB1DBC.title: "Actually Useful"
 	quest.54421091E947FDDD.title: "Not the Soda"
 	quest.5450190E1E09CB43.quest_desc: ["While press is usually used for automating recipes, here it is primarly used for making of metal sheets."]
@@ -80,6 +136,30 @@
 	quest.5A010900D45EE2F4.title: "Blasting Away"
 	quest.5C7BAA6EF06D86BE.quest_desc: ["Finish research on Andesite Alloy in university and order your blacksmith to craft some. Later on you will be able to make it using machines. Now, you've offically started Create! But don't worry - colonists will still be relevant for gaining resources."]
 	quest.5C7BAA6EF06D86BE.title: "Budget Steel"
+	quest.608B4A31219980B9.quest_desc: [
+		"Enchanter enchants items. Well not really we disabled this option because we don't like grinding for enchanting gear adding mending and having indestructible tools which are painful to lose on death (I'm still amazed on SMP players who stock on multiple sets of full netherite)."
+		""
+		"[ { \"text\": \"Read up on upgrade/enchanting system in Blacksmith quest.\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7D782243A3CBCAB8\" } } ]"
+		""
+		"&9Well back to MAGIC!@!#!#!!!!!!!&r"
+		""
+		"Enchanter creates magic items and some enchanted ones."
+		"You can craft scrolls, baubles, magic weapons and progression magic items."
+		""
+		"Scrolls info:"
+		""
+		"&e&oUltrasafe&r &eColony Teleport Scroll&r - teleports you to set colony, basically fast travel. There is group variant for teleporting nearby players."
+		""
+		"&dSacred Scroll of Regeneration&r - gives citizen around you regen"
+		""
+		"&7Spatial Guard Reinforcements Scroll&r - calls guards to help you. They don't teleport to you and it only works in colony. For an upgrade craft &eRallying banner&r."
+		""
+		"&6Worker-Where-Are-You Scroll&r - highlights colonist and gives them speed."
+	]
+	quest.608B4A31219980B9.title: "MAGIC!!!!!!!!!!!!@!@!@"
+	quest.62F3C0B665A9B51D.quest_desc: ["Homes give your colonists happiness with each level and increase their productivity. You also need residences to increase colonists count."]
+	quest.62F3C0B665A9B51D.quest_subtitle: "Done right"
+	quest.62F3C0B665A9B51D.title: "Anti-homeless architecture"
 	quest.65A9D3EC8E8613B4.title: "Metal Press"
 	quest.6C9A33851F10DD9D.quest_desc: [
 		"Builder is core job in minecolonies."
@@ -93,6 +173,8 @@
 		""
 		"- To upgrade a building, builder's hut has to have same or higher level of the building. If you have two level 5 upgrades but only 1 level 5 builder's hut, builder has to finish building previous building first."
 		""
+		"- Depending on colony theme (I believe all vanilla minecolonies themes need these) you need to gather resources from &cNether&r for level 3 builder hut upgrade and &dEnd&r for level 5 upgrade."
+		""
 		"- Supply building materials to builder directly by talking to them or placing them in the racks or builder's hut inventory. Later on you can build warehouse and courier's hut to automate resource delivery."
 		""
 		"- Builders (as other npcs) need tools. Low level builder will only use wooden tools at the beginning, so he will clear terrain really slowly and might not be able to clear leaves (shears are iron tier or I will correct it later). This brings us to the next point..."
@@ -102,7 +184,21 @@
 		"And that's it. Yeah I lied, it wasn't that quick after all."
 	]
 	quest.6C9A33851F10DD9D.title: "Builder friend joins the server"
+	quest.6CA7B879251A3557.quest_desc: [
+		"Some tilesets use really annoying to supply to builders but beautiful looking Domum Ornamentum blocks."
+		""
+		"If you share my opinion, at least the first part, then invest in sawmill."
+		""
+		"In sawmill you can add recipes for most commonly used blocks in your colony tileset and let the colonists craft them for your builders."
+		""
+		"It might take some time to ensure everything is there but if you will keep adding necessary schematics every time new building needs it - later on when placing or upgrading buildings these will be crafted and supplied automatically."
+		""
+		"&eTo get more recipe slots upgrade sawmill.&r"
+	]
+	quest.6CA7B879251A3557.title: "Building automation"
 	quest.6EB956B611E794DF.title: "I'm a Barbie Girl"
+	quest.74CF425822ED2F55.quest_desc: ["Same here but for stone recipes."]
+	quest.74CF425822ED2F55.title: "Building automation part II"
 	quest.75740062D4D5DBCB.title: "Refinery"
 	quest.764CFF3526DC1457.quest_desc: [
 		"Well it seems that water wheels are really common in minecraft modding. So make another one. This time to harness energy from it place a &6Kinetic Dynamo&r next to the middle of &7Water Wheel&r (Make sure that the side with a hole is facing the &7Wheel&r). "

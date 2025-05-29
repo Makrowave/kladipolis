@@ -39,7 +39,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["5DC6A82940D92AF9"]
+			dependencies: ["62F3C0B665A9B51D"]
 			id: "514A0A0FE397290E"
 			tasks: [
 				{
@@ -105,6 +105,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["195DC6E08F93DB92"]
 			id: "4325EF84532540EF"
 			tasks: [{
 				id: "4531A19B3AEB6493"
@@ -125,6 +126,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["195DC6E08F93DB92"]
 			id: "6CA7B879251A3557"
 			tasks: [{
 				id: "5575EACC8EF54071"
@@ -135,6 +137,10 @@
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"06A50AE6FE3756EF"
+				"32C8F8345CE13095"
+			]
 			id: "2D09A0DA1FF57527"
 			tasks: [{
 				id: "3165D453FC42D7BE"
@@ -145,6 +151,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["195DC6E08F93DB92"]
 			id: "4DA6C941A9F5EB31"
 			tasks: [{
 				id: "2CED98E263B92174"
@@ -155,6 +162,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4DA6C941A9F5EB31"]
 			id: "141F0275A91533FE"
 			tasks: [{
 				id: "633C9ED1D420EE51"
@@ -165,6 +173,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["141F0275A91533FE"]
 			id: "06A50AE6FE3756EF"
 			tasks: [{
 				id: "11D5EF18C43DA70B"
@@ -175,6 +184,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["74CF425822ED2F55"]
 			id: "32C8F8345CE13095"
 			tasks: [{
 				id: "0A3ED48FB293B8D9"
@@ -185,6 +195,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["6CA7B879251A3557"]
 			id: "74CF425822ED2F55"
 			tasks: [{
 				id: "1D72206D0170507E"
@@ -235,7 +246,10 @@
 			y: -1.5d
 		}
 		{
+			icon_scale: 0.7d
 			id: "475199A419E6C394"
+			shape: "diamond"
+			size: 1.4d
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "542F4CC1BF6AF7C7"
@@ -243,6 +257,110 @@
 			}]
 			x: 14.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["5DC6A82940D92AF9"]
+			id: "62F3C0B665A9B51D"
+			tasks: [{
+				id: "31CC1609EEA7BA46"
+				item: { count: 1, id: "minecolonies:blockhutcitizen" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["141F0275A91533FE"]
+			id: "140CF9352612D2A7"
+			tasks: [{
+				id: "63CDAD24F7ACF905"
+				item: { count: 1, id: "minecolonies:blockhutplantation" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			id: "2AE0249BF9F3123A"
+			optional: true
+			tasks: [{
+				id: "59CB21C3F74DB622"
+				item: { count: 1, id: "minecolonies:blockhutfisherman" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.5d
+		}
+		{
+			id: "5295726E6A558F86"
+			tasks: [{
+				id: "70381C5A3FCB6E7E"
+				item: { count: 1, id: "minecolonies:blockhutcook" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			id: "1427F71B7B8B922A"
+			tasks: [{
+				id: "589AC9E7F818261F"
+				item: { count: 1, id: "minecolonies:blockhutshepherd" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			id: "388BD9316624FB1F"
+			tasks: [{
+				id: "52ED4013598461F5"
+				item: { count: 1, id: "minecolonies:blockhutfletcher" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.5d
+		}
+		{
+			id: "4B9ED020B3F754CB"
+			shape: "rsquare"
+			tasks: [{
+				id: "7095759658B2B4D7"
+				item: { count: 1, id: "minecolonies:blockhutcowboy" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			id: "48C0E0B4EEB5E831"
+			tasks: [{
+				id: "70A37B4748AF64D9"
+				item: { count: 1, id: "minecolonies:blockhutswineherder" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			id: "13370EC4C3CE4AF5"
+			tasks: [{
+				id: "7CB4963E6DCEFD70"
+				item: { count: 1, id: "minecolonies:blockhutchickenherder" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			id: "74B1E6D956035E36"
+			tasks: [{
+				id: "49773E7DC35271C6"
+				item: { count: 1, id: "minecolonies:blockhutbaker" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.0d
 		}
 	]
 }
