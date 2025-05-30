@@ -56,6 +56,7 @@
 	quest.1D5D6193C974F51C.quest_subtitle: "Or girl or the other options"
 	quest.1D5D6193C974F51C.title: "Smalltown Boy"
 	quest.1E225559CDD6484C.title: "Bottling Machine"
+	quest.1EA18EE4D9850D22.quest_desc: ["To visit &cNether&r you need to be cool. And a pretty cool albeit not practical outfit is &2leaf armor&r. Quest is to craft full armor set but you only need to wear 2 at the time. Other option is to craft ice cream. It temporaliry cools you down. "]
 	quest.22F3DBCB31E7C53D.title: "Crusher"
 	quest.2AE0249BF9F3123A.quest_desc: [
 		"As you might notice some names for the quests are not only some popular references but also really unoriginal (I mean it's literally an advancement in game)."
@@ -91,12 +92,11 @@
 	]
 	quest.3B5C38FA372033EE.title: "Wired"
 	quest.3F3D7DB38881209F.title: "Stainless Mixer"
-	quest.413A23F60E3178DE.quest_desc: [
-		"Tough as Nails adds body heat mechanics. &cNether&r is rather hot. While exploring cold biomes is easy with wooly clothes, there are no cooling clothes. Here comes magic."
-		""
-		"Collect some &9packed ice&r and let &denchanter&r craft you magic cooling armor."
+	quest.450826930500A799.quest_desc: [
+		"Research steel technology and make some!"
+		"Early game steel is not cost efficient to make, but it is faster."
 	]
-	quest.413A23F60E3178DE.title: "Bing Chilling"
+	quest.450826930500A799.title: "Flint and Steel"
 	quest.452F330E930CD81C.title: "People Are Losing Their Jobs"
 	quest.475199A419E6C394.quest_desc: [
 		"Well, well, well..."

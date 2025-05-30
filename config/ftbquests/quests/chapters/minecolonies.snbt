@@ -116,6 +116,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["4325EF84532540EF"]
 			id: "7D782243A3CBCAB8"
 			tasks: [{
 				id: "5C716056AD4668FE"
@@ -206,6 +207,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["195DC6E08F93DB92"]
 			id: "50FA8226DCE8E0F8"
 			tasks: [{
 				id: "603A7711044F2AE9"
@@ -216,6 +218,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["50FA8226DCE8E0F8"]
 			id: "3AC9F2F697D4C7C9"
 			tasks: [{
 				id: "6592F5F777FA23B3"
@@ -226,24 +229,15 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["195DC6E08F93DB92"]
 			id: "608B4A31219980B9"
 			tasks: [{
 				id: "7481C91D14AA1A0A"
 				item: { count: 1, id: "minecolonies:blockhutenchanter" }
 				type: "item"
 			}]
-			x: 10.5d
-			y: -1.5d
-		}
-		{
-			id: "413A23F60E3178DE"
-			tasks: [{
-				id: "5A72A1D51F605DD6"
-				item: { count: 1, id: "minecraft:packed_ice" }
-				type: "item"
-			}]
-			x: 12.5d
-			y: -1.5d
+			x: 11.5d
+			y: -3.5d
 		}
 		{
 			icon_scale: 0.7d
@@ -255,8 +249,8 @@
 				id: "542F4CC1BF6AF7C7"
 				type: "dimension"
 			}]
-			x: 14.5d
-			y: -1.5d
+			x: 13.299999999999999d
+			y: -1.4d
 		}
 		{
 			dependencies: ["5DC6A82940D92AF9"]
@@ -281,6 +275,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["5295726E6A558F86"]
 			id: "2AE0249BF9F3123A"
 			optional: true
 			tasks: [{
@@ -292,6 +287,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["195DC6E08F93DB92"]
 			id: "5295726E6A558F86"
 			tasks: [{
 				id: "70381C5A3FCB6E7E"
@@ -302,6 +298,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["5295726E6A558F86"]
 			id: "1427F71B7B8B922A"
 			tasks: [{
 				id: "589AC9E7F818261F"
@@ -312,6 +309,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["1427F71B7B8B922A"]
 			id: "388BD9316624FB1F"
 			tasks: [{
 				id: "52ED4013598461F5"
@@ -322,6 +320,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["5295726E6A558F86"]
 			id: "4B9ED020B3F754CB"
 			shape: "rsquare"
 			tasks: [{
@@ -333,6 +332,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["5295726E6A558F86"]
 			id: "48C0E0B4EEB5E831"
 			tasks: [{
 				id: "70A37B4748AF64D9"
@@ -343,6 +343,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["5295726E6A558F86"]
 			id: "13370EC4C3CE4AF5"
 			tasks: [{
 				id: "7CB4963E6DCEFD70"
@@ -353,6 +354,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["13370EC4C3CE4AF5"]
 			id: "74B1E6D956035E36"
 			tasks: [{
 				id: "49773E7DC35271C6"
@@ -361,6 +363,61 @@
 			}]
 			x: 15.0d
 			y: 4.0d
+		}
+		{
+			icon: {
+				id: "toughasnails:leaf_helmet"
+			}
+			id: "1EA18EE4D9850D22"
+			rewards: [{
+				count: 4
+				id: "3783F6AF4BA9DC5E"
+				item: {
+					count: 1
+					id: "toughasnails:ice_cream"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "18F522BD7E68FEA0"
+					item: { count: 1, id: "toughasnails:leaf_helmet" }
+					type: "item"
+				}
+				{
+					id: "1192938FFA9C30FD"
+					item: { count: 1, id: "toughasnails:leaf_chestplate" }
+					type: "item"
+				}
+				{
+					id: "15E115933E83D6FE"
+					item: { count: 1, id: "toughasnails:leaf_leggings" }
+					type: "item"
+				}
+				{
+					id: "63BF81142E0DC952"
+					item: { count: 1, id: "toughasnails:leaf_boots" }
+					type: "item"
+				}
+				{
+					id: "42B227CF321E2007"
+					item: { count: 1, id: "toughasnails:ice_cream" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			id: "450826930500A799"
+			tasks: [{
+				id: "25A5717D290ABDB0"
+				item: { count: 1, id: "magistuarmory:steel_ingot" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
 		}
 	]
 }
