@@ -36,6 +36,7 @@ mods/*
 config/jei/world/*
 local/*
 
+screenshots/*
 
 ct_dumps
 debug

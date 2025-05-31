@@ -49,7 +49,17 @@
       "minecraft:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_gravel",
+      "kladipolis:ore_coal_lower_cold",
+      "kladipolis:ore_coal_upper_cold",
+      "kladipolis:ore_copper_cold",
+      "kladipolis:ore_diamond_cold",
+      "kladipolis:ore_gold_cold",
+      "kladipolis:ore_iron_lower_cold",
+      "kladipolis:ore_iron_upper_cold",
+      "kladipolis:ore_redstone_lower_cold",
+      "kladipolis:ore_redstone_upper_cold",
+      "minecraft:ore_lapis"
     ],
     [],
     [],

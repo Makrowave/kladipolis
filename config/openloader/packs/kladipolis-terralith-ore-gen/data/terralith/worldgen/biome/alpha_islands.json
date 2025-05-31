@@ -40,7 +40,14 @@
     ],
     [
       "minecraft:ore_dirt",
-      "minecraft:ore_gravel"
+      "minecraft:ore_gravel",
+      "kladipolis:ore_iron_default",
+      "kladipolis:ore_redstone_default",
+      "kladipolis:ore_diamond_default",
+      "kladipolis:ore_copper_default",
+      "kladipolis:ore_coal_default",
+      "kladipolis:ore_gold_default",
+      "minecraft:ore_lapis"
     ],
     [
       "terralith:alpha/sand_beaches"
