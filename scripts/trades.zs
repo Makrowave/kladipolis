@@ -2,7 +2,11 @@ import crafttweaker.api.game.Game;
 
 //remove all trades
 for profession in game.villagerProfessions {
-    villagerTrades.removeAllTrades(profession, 1);
+	var level = 1;
+    while level <= 10 {
+		villagerTrades.removeAllTrades(profession, level);
+		level += 1;
+	}
 }
 
 //farmer
