@@ -136,6 +136,8 @@
 	quest.5A010900D45EE2F4.title: "Blasting Away"
 	quest.5C7BAA6EF06D86BE.quest_desc: ["Finish research on Andesite Alloy in university and order your blacksmith to craft some. Later on you will be able to make it using machines. Now, you've offically started Create! But don't worry - colonists will still be relevant for gaining resources."]
 	quest.5C7BAA6EF06D86BE.title: "Budget Steel"
+	quest.5CA84433574B2272.quest_subtitle: "Global trade makes civilizations exchange not only items, but also ideas"
+	quest.5CA84433574B2272.title: "Commerce"
 	quest.608B4A31219980B9.quest_desc: [
 		"Enchanter enchants items. Well not really we disabled this option because we don't like grinding for enchanting gear adding mending and having indestructible tools which are painful to lose on death (I'm still amazed on SMP players who stock on multiple sets of full netherite)."
 		""
@@ -161,6 +163,8 @@
 	quest.62F3C0B665A9B51D.quest_subtitle: "Done right"
 	quest.62F3C0B665A9B51D.title: "Anti-homeless architecture"
 	quest.65A9D3EC8E8613B4.title: "Metal Press"
+	quest.68FEDF14F8CE1752.quest_subtitle: "New crops appearing in the colony provide much more nutrients and are easier to farm"
+	quest.68FEDF14F8CE1752.title: "Columbian Exchange"
 	quest.6C9A33851F10DD9D.quest_desc: [
 		"Builder is core job in minecolonies."
 		"Quick breakdown of how building progression works:"

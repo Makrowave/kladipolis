@@ -8,6 +8,10 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [
+				"68FEDF14F8CE1752"
+				"450826930500A799"
+			]
 			id: "5C7BAA6EF06D86BE"
 			shape: "gear"
 			size: 1.4d
