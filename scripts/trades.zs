@@ -20,4 +20,4 @@ villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 1, <item:minecraft:c
 // Armorer
 villagerTrades.addTrade(<profession:minecraft:armorer>, 1, <item:minecraft:campfire> * 5, <item:minecraft:air>, <item:toughasnails:wool_chestplate> * 1, 2, 2, 0.5);
 
-//todo: re-add cartographer explore maps (crafttweaker has problems with addexploremaps)
+//todo readd cartographer explore maps crafttweaker has problems with addexploremaps
