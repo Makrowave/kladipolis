@@ -5,7 +5,7 @@ import crafttweaker.api.villager.trade.type.TreasureMapForEmeralds;
 //remove all trades
 for profession in game.villagerProfessions {
 	var level = 1;
-    while level <= 10 {
+    while level <= 5 {
 		villagerTrades.removeAllTrades(profession, level);
 		level += 1;
 	}
