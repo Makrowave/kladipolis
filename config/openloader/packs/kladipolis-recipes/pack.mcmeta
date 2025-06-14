@@ -3,7 +3,7 @@
     "pack_format": 48,
     "description": [
       { "text": "Kladopolis modpack helper datapack. ", "color": "gold" },
-      { "text": "Removes drops from iron golems to disable iron farms.", "color": "white" }
+      { "text": "Custom recipes done without CraftTweaker.", "color": "white" }
     ]
   }
 }

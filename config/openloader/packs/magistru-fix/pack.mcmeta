@@ -1,6 +1,13 @@
 {
-    "pack": {
-      "pack_format": 27,
-      "description": "Datapack fixing Epic Knights Mod recipes"
-    }
+  "pack": {
+    "pack_format": 48,
+    "description": [
+      { "text": "Datapack fixing Epic Knights Mod recipes. ", "color": "gold" },
+      { "text": "Fixes: ", "color": "yellow" },
+      { "text": "• Barbed Club ", "color": "white" },
+      { "text": "• Blacksmith Hammer ", "color": "white" },
+      { "text": "• Pitchfork ", "color": "white" },
+      { "text": "• Steel blasting (unsure) ", "color": "white" }
+    ]
   }
+}

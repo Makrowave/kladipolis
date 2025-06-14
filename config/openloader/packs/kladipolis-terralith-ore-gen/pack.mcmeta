@@ -1,6 +1,12 @@
 {
   "pack": {
-    "pack_format": 27,
-    "description": "Kladopolis modpack helper datapack"
+    "pack_format": 48,
+    "description": [
+      { "text": "Kladopolis modpack helper datapack. ", "color": "gold" },
+      { "text": "Changes: ", "color": "yellow" },
+      { "text": "• Less ores overall ", "color": "white" },
+      { "text": "• More ores in cold biomes (temp < 0) ", "color": "white" },
+      { "text": "• More gold/lapis in hot biomes (temp later, I forgor)", "color": "white" }
+    ]
   }
 }
