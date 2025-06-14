@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": [
+      { "text": "Kladopolis modpack helper datapack. ", "color": "gold" },
+      { "text": "Removes ", "color": "white" },
+      { "text": "elytra", "color": "light_purple" },
+      { "text": " by overwriting ", "color": "white" },
+      { "text": "end ship", "color": "light_purple" },
+      { "text": " structure", "color": "white" }
+    ]
+  }
+}
