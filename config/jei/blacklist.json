@@ -1,3 +1,8 @@
 [
-  {"version":2}
+  {"version":2},
+  {"hide_mode":"WILDCARD","ingredient":{"ingredient":{"id":"supplementaries:slingshot"},"type":"item_stack"}},
+  {"hide_mode":"WILDCARD","ingredient":{"ingredient":{"id":"supplementaries:cannon"},"type":"item_stack"}},
+  {"hide_mode":"SINGLE","ingredient":{"ingredient":{"id":"minecraft:enchanted_book","components":{"minecraft:stored_enchantments":{"levels":{"supplementaries:stasis":1}}}},"type":"item_stack"}},
+  {"hide_mode":"WILDCARD","ingredient":{"ingredient":{"id":"supplementaries:rope"},"type":"item_stack"}},
+  {"hide_mode":"WILDCARD","ingredient":{"ingredient":{"id":"supplementaries:rope_arrow","components":{"minecraft:damage":0}},"type":"item_stack"}}
 ]
