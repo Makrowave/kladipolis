@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": [
+      { "text": "Kladopolis modpack helper datapack. ", "color": "gold" },
+      { "text": "Custom recipes done without CraftTweaker.", "color": "white" }
+    ]
+  }
+}
