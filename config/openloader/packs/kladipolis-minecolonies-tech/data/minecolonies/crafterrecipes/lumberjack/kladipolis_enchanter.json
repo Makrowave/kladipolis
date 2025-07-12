@@ -1,0 +1,17 @@
+{
+  "type": "recipe",
+  "crafter": "lumberjack_custom",
+  "inputs": [
+    {
+      "id": "minecraft:bamboo_planks",
+	  "count": "7"
+    },
+    {
+      "id": "minecraft:enchanting_table"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "result": {
+    "id": "minecolonies:blockhutenchanter"
+  }
+}
