@@ -119,6 +119,7 @@
 		"Later on when barracks are placed you can rally guards to aid you inside or outside the village with the help of enchanter's scrolls. "
 	]
 	quest.50FA8226DCE8E0F8.title: "Border Control"
+	quest.514A0A0FE397290E.quest_desc: ["Craftsmanship > Storage > Warehouse"]
 	quest.5295726E6A558F86.quest_desc: ["Restaurant is the place to go for villagers to eat food. Cooks can also craft advanced dishes. You can teach them recipes from Farmer's delight to make these dishes. Well for them to cook they need ingredients like meat or fish. So next step is making other farms."]
 	quest.5295726E6A558F86.title: "3 michelin stars"
 	quest.52EFFE716EAB1DBC.title: "Actually Useful"
@@ -138,6 +139,17 @@
 	quest.5C7BAA6EF06D86BE.title: "Budget Steel"
 	quest.5CA84433574B2272.quest_subtitle: "Global trade makes civilizations exchange not only items, but also ideas"
 	quest.5CA84433574B2272.title: "Commerce"
+	quest.5DC6A82940D92AF9.quest_desc: [
+		"Right click with a build tool then"
+		"Agriculture > Horticulture > Farm"
+		""
+		"Then right click the build tool again to build another building and go into"
+		"Infrastructure > Field"
+		""
+		"Then you need to click on the scarecrow block and choose the seed to farm."
+		""
+		"The field should be assigned to the farm automatically and your farmer will start farming!"
+	]
 	quest.608B4A31219980B9.quest_desc: [
 		"Enchanter enchants items. Well not really we disabled this option because we don't like grinding for enchanting gear adding mending and having indestructible tools which are painful to lose on death (I'm still amazed on SMP players who stock on multiple sets of full netherite)."
 		""
