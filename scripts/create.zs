@@ -22,3 +22,6 @@ craftingTable.remove(<item:create:mechanical_drill>);
 
 //Recipe removal only
 <recipetype:create:mixing>.remove(<item:create:brass_ingot>);
+
+<recipetype:create:mixing>.remove(<item:create:crafting/materials/andesite_alloy>);
+<recipetype:create:mixing>.remove(<item:create:crafting/materials/andesite_alloy_from_zinc>);
