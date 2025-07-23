@@ -4,6 +4,10 @@ import crafttweaker.api.villager.trade.type.TreasureMapForEmeralds;
 
 //remove all trades
 for profession in game.villagerProfessions {
+	if (profession.registryName.toString() == "minecraft:cartographer") {
+		continue;
+	}
+
 	var level = 1;
     while level <= 5 {
 		villagerTrades.removeAllTrades(profession, level);
@@ -20,4 +24,3 @@ villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 1, <item:minecraft:c
 // Armorer
 villagerTrades.addTrade(<profession:minecraft:armorer>, 1, <item:minecraft:campfire> * 5, <item:minecraft:air>, <item:toughasnails:wool_chestplate> * 1, 2, 2, 0.5);
 
-//todo readd cartographer explore maps crafttweaker has problems with addexploremaps

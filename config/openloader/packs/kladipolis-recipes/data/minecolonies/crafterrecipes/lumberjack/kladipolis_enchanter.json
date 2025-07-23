@@ -1,0 +1,25 @@
+{
+  "type": "recipe-template",
+  "tag": "minecraft:planks",
+  "filter": {
+    "include": [ "_planks" ],
+    "exclude": []
+  },
+  "recipe": {
+    "crafter": "lumberjack_custom",
+     "research-id": "minecolonies:technology/kladipolis_enchanter",
+    "inputs": [
+      {
+        "id": "[NS]:[PATH]",
+        "count": "7"
+      },
+      {
+        "id": "minecraft:enchanting_table"
+      }
+    ],
+    "intermediate": "minecraft:air",
+    "result": {
+      "id": "minecolonies:blockhutenchanter"
+    }
+  }
+}
