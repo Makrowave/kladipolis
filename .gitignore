@@ -42,3 +42,5 @@ ct_dumps
 debug
 
 config/worldedit
+
+**/*.bak
