@@ -1,0 +1,23 @@
+{
+  "type": "recipe",
+  "crafter": "alchemist_crafting",
+  "inputs": [
+    {
+      "id": "create:raw_zinc",
+      "count": 8
+    },
+    {
+      "id": "minecraft:potion",
+      "count": 1
+    }
+  ],
+  "intermediate": "minecraft:brewing_stand",
+  "result": {
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:regeneration"
+      }
+    }
+  }
+}
