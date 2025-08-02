@@ -131,4 +131,4 @@ craftingTable.addShaped("immersive/cokebrick", <item:immersiveengineering:cokebr
 // craftingTable.removeByName("immersiveengineering:crafting/component_steel");
 // craftingTable.removeByName("immersiveengineering:crafting/component_iron");
 
-
+craftingTable.remove(<item:immersiveengineering:hammer>);
