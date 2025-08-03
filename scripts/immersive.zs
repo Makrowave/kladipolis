@@ -2,6 +2,7 @@ import crafttweaker.api.recipe.replacement.Replacer;
 import crafttweaker.api.recipe.replacement.type.NameFilteringRule;
 import crafttweaker.api.ingredient.IIngredient;
 
+<tag:item:c:ingots/silver>.add(<item:immersiveengineering:ingot_silver>);
 
 //Conveyor belt
 craftingTable.remove(<item:immersiveengineering:conveyor_basic>);
