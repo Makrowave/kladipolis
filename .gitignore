@@ -44,3 +44,5 @@ debug
 config/worldedit
 
 **/*.bak
+config/MouseTweaks.cfg
+config/storagedrawers-client.toml
