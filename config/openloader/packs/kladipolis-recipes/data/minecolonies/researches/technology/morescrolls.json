@@ -9,28 +9,25 @@
   "parentResearch": "minecolonies:technology/kladipolis_enchanter",
   "requirements": [
     {
+      "type": "minecolonies:building",
       "building": "enchanter",
       "level": 3
-    },
-    {
-      "items": {
-        "count": 64,
-        "item": "minecraft:paper"
-      }
-    },
-    {
-      "items": {
-        "count": 1,
-        "item": "minecolonies:ancienttome"
-      }
-    },
-    {
-      "items": {
-        "count": 64,
-        "item": "minecraft:lapis_lazuli"
-      }
     }
   ],
-  "researchLevel": 1,
+  "costs": [
+    {
+      "count": 64,
+      "item": "minecraft:paper"
+    },
+    {
+      "count": 1,
+      "item": "minecolonies:ancienttome"
+    },
+    {
+      "count": 64,
+      "item": "minecraft:lapis_lazuli"
+    }
+  ],
+  "researchLevel": 2,
   "sortOrder": 3
 }

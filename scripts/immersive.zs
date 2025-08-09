@@ -4,6 +4,10 @@ import crafttweaker.api.ingredient.IIngredient;
 
 <tag:item:c:ingots/silver>.add(<item:immersiveengineering:ingot_silver>);
 
+//Revolver
+craftingTable.remove(<item:immersiveengineering:revolver>);
+craftingTable.remove(<item:immersiveengineering:railgun>);
+
 //Conveyor belt
 craftingTable.remove(<item:immersiveengineering:conveyor_basic>);
 craftingTable.addShaped("immersive/conveyor_cheap", <item:immersiveengineering:conveyor_basic>, [
