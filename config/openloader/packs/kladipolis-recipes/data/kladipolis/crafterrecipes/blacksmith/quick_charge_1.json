@@ -1,0 +1,23 @@
+{
+  "type": "recipe",
+  "crafter": "blacksmith_crafting",
+  "intermediate": "minecraft:air",
+  "research-id": "kladipolis:upgrades/ranged_upgrades_1",
+  "inputs": [
+    {
+      "id": "minecraft:smooth_stone"
+    },
+    {
+      "id": "immersiveengineering:wirecoil_structure_rope",
+      "count": 8
+    }
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:quick_charge": 1
+      }
+    }
+  }
+}

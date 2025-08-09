@@ -1,0 +1,23 @@
+{
+  "type": "recipe",
+  "crafter": "blacksmith_crafting",
+  "intermediate": "minecraft:air",
+  "research-id": "kladipolis:upgrades/fortune_upgrades_1",
+  "inputs": [
+    {
+      "id": "minecraft:smooth_stone"
+    },
+    {
+      "count": 8,
+      "id": "minecraft:diamond"
+    }
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:fortune": 1
+      }
+    }
+  }
+}

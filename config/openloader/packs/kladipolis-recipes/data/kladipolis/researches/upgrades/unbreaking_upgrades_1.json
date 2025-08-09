@@ -1,0 +1,24 @@
+{
+  "branch": "kladipolis:upgrades",
+  "icon": "minecraft:anvil",
+  "subtitle": "com.kladipolis.research.upgrades.unbreaking_upgrades_1.subtitle",
+  "researchLevel": 1,
+  "sortOrder": 60,
+  "costs": [
+    {
+      "count": 8,
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:obsidian"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "blacksmith",
+      "level": 1
+    }
+  ]
+}

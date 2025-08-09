@@ -1,0 +1,27 @@
+{
+  "type": "recipe",
+  "crafter": "blacksmith_crafting",
+  "intermediate": "minecraft:air",
+  "research-id": "kladipolis:upgrades/tool_upgrades_1",
+  "inputs": [
+    {
+      "id": "minecraft:smooth_stone"
+    },
+    {
+      "count": 2,
+      "id": "minecraft:iron_ingot"
+    },
+    {
+      "count": 2,
+      "id": "minecraft:redstone"
+    }
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:efficiency": 1
+      }
+    }
+  }
+}

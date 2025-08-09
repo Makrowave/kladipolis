@@ -1,0 +1,25 @@
+{
+  "branch": "kladipolis:upgrades",
+  "icon": "minecraft:diamond",
+  "subtitle": "com.kladipolis.research.upgrades.fortune_upgrades_1.subtitle",
+  "researchLevel": 1,
+  "sortOrder": 20,
+  "costs": [
+    {
+      "count": 16,
+      "item": "minecraft:diamond"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "blacksmith",
+      "level": 1
+    },
+    {
+      "type": "minecolonies:building",
+      "building": "enchanter",
+      "level": 1
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "com.kladipolis.research.upgrades.name": "Equipment",
+  "com.kladipolis.research.upgrades.armor_upgrades_1.name": "Protection suite I",
+  "com.kladipolis.research.upgrades.armor_upgrades_1.subtitle": "Blast, Fire, Projectile Protection, Protection, Thorns. All level I",
+  "com.kladipolis.research.upgrades.fortune_upgrades_1.name": "Lucky",
+  "com.kladipolis.research.upgrades.fortune_upgrades_1.subtitle": "Fortune I",
+  "com.kladipolis.research.upgrades.ranged_upgrades_1.name": "Ranged suite I",
+  "com.kladipolis.research.upgrades.ranged_upgrades_1.subtitle": "Piercing, Power and Quickcharge. Level I",
+  "com.kladipolis.research.upgrades.sea_upgrades_1.name": "Ocean suite I",
+  "com.kladipolis.research.upgrades.sea_upgrades_1.subtitle": "Lure, Luck of The Sea, but also Loyalty and Impaling. Level I",
+  "com.kladipolis.research.upgrades.tool_upgrades_1.name": "Tool suite I",
+  "com.kladipolis.research.upgrades.tool_upgrades_1.subtitle": "Tbh this is only Efficiency. Level I",
+  "com.kladipolis.research.upgrades.unbreaking_upgrades_1.name": "Unbreakable",
+  "com.kladipolis.research.upgrades.unbreaking_upgrades_1.subtitle": "Unbreaking I",
+  "com.kladipolis.research.upgrades.weapon_upgrades_1.name": "Weapon suite I",
+  "com.kladipolis.research.upgrades.weapon_upgrades_1.subtitle": "Bane of Arthropods, Smite, Sharpness, Density, Breach... you name it! All level I"
+}

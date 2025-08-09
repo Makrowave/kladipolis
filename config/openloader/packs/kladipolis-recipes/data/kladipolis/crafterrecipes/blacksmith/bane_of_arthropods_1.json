@@ -1,0 +1,23 @@
+{
+  "type": "recipe",
+  "crafter": "blacksmith_crafting",
+  "intermediate": "minecraft:air",
+  "research-id": "kladipolis:upgrades/weapon_upgrades_1",
+  "inputs": [
+    {
+      "id": "minecraft:smooth_stone"
+    },
+    {
+      "count": "2",
+      "id": "minecraft:spider_eye"
+    }
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:bane_of_arthropods": 1
+      }
+    }
+  }
+}

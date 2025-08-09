@@ -1,0 +1,23 @@
+{
+  "type": "recipe",
+  "crafter": "blacksmith_crafting",
+  "intermediate": "minecraft:air",
+  "research-id": "kladipolis:upgrades/armor_upgrades_1",
+  "inputs": [
+    {
+      "id": "minecraft:smooth_stone"
+    },
+    {
+      "id": "minecraft:iron_ingot",
+      "count": 4
+    }
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "minecraft:protection": 1
+      }
+    }
+  }
+}
