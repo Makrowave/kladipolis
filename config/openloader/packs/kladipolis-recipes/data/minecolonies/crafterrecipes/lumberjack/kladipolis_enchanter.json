@@ -2,12 +2,12 @@
   "type": "recipe-template",
   "tag": "minecraft:planks",
   "filter": {
-    "include": ["_planks"],
+    "include": [ "_planks" ],
     "exclude": []
   },
   "recipe": {
     "crafter": "lumberjack_custom",
-    "research-id": "minecolonies:technology/kladipolis_enchanter",
+     "research-id": "minecolonies:technology/kladipolis_enchanter",
     "inputs": [
       {
         "id": "[NS]:[PATH]",

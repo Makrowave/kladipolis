@@ -4,6 +4,5 @@ craftingTable.remove(<item:supplementaries:cannon>);
 craftingTable.remove(<item:supplementaries:lumisene_bottle>);
 craftingTable.remove(<item:supplementaries:lumisene_bucket>);
 craftingTable.remove(<item:supplementaries:slingshot>);
-craftingTable.remove(<item:supplementaries:bubble_blower>);
 craftingTable.removeByName("supplementaries:rope_arrow_create");
 craftingTable.removeByName("supplementaries:rope_arrow_add");
