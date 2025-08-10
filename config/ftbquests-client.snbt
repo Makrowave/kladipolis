@@ -1,20 +1,13 @@
 {
-	notifications: {
+	ui: {
 		# Default: true
-		completion_sounds: true
+		backspace_history: true
 		
-		# Default: "toast"
-		# Valid values: "toast", "chat", "action_bar", "none"
-		completion_style: "toast"
+		# Default: false
+		chapter_panel_pinned: false
 		
-		# Default: "toast"
-		# Valid values: "toast", "chat", "action_bar", "none"
-		reward_style: "toast"
-	}
-	pinned: {
-		# Default: "chapter"
-		# Valid values: "file", "chapter"
-		auto_pin_follows: "chapter"
+		# Default: false
+		old_scroll_wheel: false
 		
 		# Default: 2
 		# Range: -∞ ~ +∞
@@ -28,29 +21,12 @@
 		# Valid values: "top_left", "top", "top_right", "right", "bottom_right", "bottom", "bottom_left", "left"
 		pinned_quests_pos: "right"
 		
-		# Default: 0.75
-		# Range: 0.25 ~ 2.0
-		pinned_quests_scale: 0.75d
-	}
-	ui: {
-		# Default: true
-		backspace_history: true
-		
-		# Default: false
-		chapter_panel_pinned: false
-		
-		# Default: false
-		old_scroll_wheel: false
-		
 		# Default: true
 		show_lock_icon: true
 	}
 	xlate: {
 		# Default: ""
 		editing_locale: ""
-		
-		# Default: ""
-		fallback_locale: ""
 		
 		# Default: true
 		hilite_missing: true

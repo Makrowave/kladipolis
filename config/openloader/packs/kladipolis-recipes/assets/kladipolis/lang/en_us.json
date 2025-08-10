@@ -13,11 +13,5 @@
   "com.kladipolis.research.upgrades.unbreaking_upgrades_1.name": "Unbreakable",
   "com.kladipolis.research.upgrades.unbreaking_upgrades_1.subtitle": "Unbreaking I",
   "com.kladipolis.research.upgrades.weapon_upgrades_1.name": "Weapon suite I",
-  "com.kladipolis.research.upgrades.weapon_upgrades_1.subtitle": "Bane of Arthropods, Smite, Sharpness, Density, Breach... you name it! All level I",
-
-  "com.kladipolis.research.medieval.name": "Medieval Age",
-  "com.kladipolis.research.medieval.drakkar.name": "Drakkars",
-  "com.kladipolis.research.medieval.cog.name": "Cogs",
-  "com.kladipolis.research.medieval.brigg.name": "Brigs",
-  "com.kladipolis.research.medieval.galley.name": "Galleys"
+  "com.kladipolis.research.upgrades.weapon_upgrades_1.subtitle": "Bane of Arthropods, Smite, Sharpness, Density, Breach... you name it! All level I"
 }
