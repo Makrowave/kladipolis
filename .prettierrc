@@ -1,0 +1,15 @@
+{
+  "tabWidth": 2,
+  "useTabs": false,
+  "overrides": [
+    {
+      "files": ["*.json", "*.json5"],
+      "options": {
+        "parser": "json5",
+        "tabWidth": 2,
+        "useTabs": false,
+        "quoteProps": "preserve"
+      }
+    }
+  ]
+}
