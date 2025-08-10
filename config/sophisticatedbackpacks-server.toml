@@ -3,7 +3,7 @@
 	#List of items that are not allowed to be put in backpacks - e.g. "minecraft:shulker_box"
 	disallowedItems = []
 	#Determines if container items (those that override canFitInsideContainerItems to false) are able to fit in backpacks
-	containerItemsDisallowed = false
+	containerItemsDisallowed = true
 	#List of blocks that inventory interaction upgrades can't interact with - e.g. "minecraft:shulker_box"
 	noInteractionBlocks = []
 	#List of blocks that are not allowed to connect to backpacks - e.g. "refinedstorage:external_storage"
@@ -26,7 +26,7 @@
 		#Number of inventory slots in the backpack
 		# Default: 27
 		# Range: 1 ~ 144
-		inventorySlotCount = 27
+		inventorySlotCount = 18
 		#Number of upgrade slots in the backpack
 		# Default: 1
 		# Range: 0 ~ 10
@@ -37,7 +37,7 @@
 		#Number of inventory slots in the backpack
 		# Default: 45
 		# Range: 1 ~ 144
-		inventorySlotCount = 45
+		inventorySlotCount = 27
 		#Number of upgrade slots in the backpack
 		# Default: 1
 		# Range: 0 ~ 10
@@ -48,7 +48,7 @@
 		#Number of inventory slots in the backpack
 		# Default: 54
 		# Range: 1 ~ 144
-		inventorySlotCount = 54
+		inventorySlotCount = 27
 		#Number of upgrade slots in the backpack
 		# Default: 2
 		# Range: 0 ~ 10
@@ -59,7 +59,7 @@
 		#Number of inventory slots in the backpack
 		# Default: 81
 		# Range: 1 ~ 144
-		inventorySlotCount = 81
+		inventorySlotCount = 36
 		#Number of upgrade slots in the backpack
 		# Default: 3
 		# Range: 0 ~ 10
@@ -70,7 +70,7 @@
 		#Number of inventory slots in the backpack
 		# Default: 108
 		# Range: 1 ~ 144
-		inventorySlotCount = 108
+		inventorySlotCount = 45
 		#Number of upgrade slots in the backpack
 		# Default: 5
 		# Range: 0 ~ 10
@@ -81,7 +81,7 @@
 		#Number of inventory slots in the backpack
 		# Default: 120
 		# Range: 1 ~ 144
-		inventorySlotCount = 120
+		inventorySlotCount = 45
 		#Number of upgrade slots in the backpack
 		# Default: 7
 		# Range: 0 ~ 10
@@ -531,7 +531,7 @@
 		#Chance of mob dropping backpack when killed by player
 		# Default: 0.5
 		# Range: 0.0 ~ 1.0
-		backpackDropChance = 0.5
+		backpackDropChance = 0.1
 		#Chance increase per looting level of mob dropping backpack
 		# Default: 0.15
 		# Range: 0.0 ~ 0.3
@@ -539,14 +539,14 @@
 
 	[server.nerfs]
 		#Determines if too many backpacks in player's inventory cause slowness to the player
-		tooManyBackpacksSlowness = false
+		tooManyBackpacksSlowness = true
 		#Maximum number of backpacks in player's inventory that will not cause slowness
 		# Default: 3
 		# Range: 1 ~ 27
-		maxNumberOfBackpacks = 3
+		maxNumberOfBackpacks = 2
 		#Ratio of slowness levels per every backpack above the maximum number allowed. (number of backpacks above the max gets multiplied by this number and ceiled)
 		# Default: 1.0
 		# Range: 0.1 ~ 5.0
 		slownessLevelsPerAdditionalBackpack = 1.0
 		#Determines if active upgrades will only work in the backpack that's worn by the player. Active upgrades are for example magnet, pickup, cooking, feeding upgrades.
-		onlyWornBackpackTriggersUpgrades = false
+		onlyWornBackpackTriggersUpgrades = true
