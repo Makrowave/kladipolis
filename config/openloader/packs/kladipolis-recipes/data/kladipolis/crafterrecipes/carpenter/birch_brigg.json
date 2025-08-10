@@ -1,0 +1,28 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+      "count": 80,
+      "id": "minecraft:birch_planks"
+    },
+    {
+      "count": 13,
+      "id": "minecraft:lead"
+    },
+    {
+      "count": 6,
+      "id": "minecraft:barrel"
+    },
+    {
+      "count": 6,
+      "id": "smallships:sail"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "research-id": "kladipolis:medieval/brigg",
+  "result": {
+    "id": "smallships:birch_brigg"
+  },
+  "show-tooltip": true
+}

@@ -1,0 +1,20 @@
+{
+  "branch": "kladipolis:medieval",
+  "icon": "smallships:oak_drakkar",
+  "researchLevel": 1,
+
+  "sortOrder": 10,
+  "costs": [
+    {
+      "count": 10,
+      "item": "minecraft:oak_boat"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "sawmill",
+      "level": 1
+    }
+  ]
+}
