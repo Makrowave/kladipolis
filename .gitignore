@@ -48,3 +48,4 @@ config/MouseTweaks.cfg
 config/storagedrawers-client.toml
 
 simplebackups
+backups
