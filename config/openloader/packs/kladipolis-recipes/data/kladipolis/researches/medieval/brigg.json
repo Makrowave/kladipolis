@@ -1,0 +1,28 @@
+{
+  "branch": "kladipolis:medieval",
+  "icon": "smallships:oak_brigg",
+  "researchLevel": 3,
+  "parentResearch": "kladipolis:medieval/cog",
+  "sortOrder": 10,
+  "costs": [
+    {
+      "count": 16,
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "count": 128,
+      "item": "minecraft:stripped_oak_wood"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:barrel"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "sawmill",
+      "level": 3
+    }
+  ]
+}
