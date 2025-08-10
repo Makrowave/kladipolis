@@ -30,6 +30,14 @@
 	enablePersonalKey = true
 	debugTrace = false
 	compactingRules = ["minecraft:clay, minecraft:clay_ball, 4"]
+	#If enabled, limits framing materials to solid, opaque blocks [by best effort]
+	restrictFramingMaterials = true
+	#If enabled, allows drawers with contents to be stored in another drawer block
+	enableStoreFilledDrawers = false
+	#
+	#Each entry should be a namespace or fully namespaced item, e.g. minecraft:cobblestone
+	#Any items on the blacklist are prevented from being stored in drawers
+	storeBlacklist = ["storagedrawers:creative_vending_upgrade"]
 
 [Integration]
 	#When true, shows quantity as NxS + R (by stack size) rather than count
