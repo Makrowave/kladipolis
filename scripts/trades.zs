@@ -24,3 +24,5 @@ villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 1, <item:minecraft:c
 // Armorer
 villagerTrades.addTrade(<profession:minecraft:armorer>, 1, <item:minecraft:campfire> * 5, <item:minecraft:air>, <item:toughasnails:wool_chestplate> * 1, 2, 2, 0.5);
 
+// Shepherd
+villagerTrades.addTrade(<profession:minecraft:shepherd>, 1, <item:minecraft:emerald> * 10, <item:minecraft:air>, <item:magistuarmory:dragon_pattern> * 1, 2, 2, 0.5);
