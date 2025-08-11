@@ -1,0 +1,28 @@
+{
+  "branch": "kladipolis:medieval",
+  "icon": "smallships:oak_cog",
+  "researchLevel": 2,
+  "parentResearch": "kladipolis:medieval/drakkar",
+  "sortOrder": 10,
+  "costs": [
+    {
+      "count": 4,
+      "item": "minecolonies:blockminecoloniesrack"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:barrel"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:chest"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "sawmill",
+      "level": 2
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+      "count": 60,
+      "id": "minecraft:spruce_planks"
+    },
+    {
+      "count": 4,
+      "id": "minecraft:lead"
+    },
+    {
+      "count": 2,
+      "id": "smallships:sail"
+    },
+    {
+      "count": 8,
+      "id": "minecraft:wooden_shovel"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "research-id": "kladipolis:medieval/drakkar",
+  "result": {
+    "id": "smallships:spruce_drakkar"
+  },
+  "show-tooltip": true
+}
