@@ -86,6 +86,9 @@
     ],
     [
       "minecraft:freeze_top_layer"
+    ],
+    [
+      "kladipolis:patch_fire_gleam_farmland"
     ]
   ],
   "has_precipitation": true,
