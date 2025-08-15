@@ -25,7 +25,7 @@
           "to_place": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:gold_block"
+              "Name": "kladipolisutils:fire_gleam"
             }
           }
         }
