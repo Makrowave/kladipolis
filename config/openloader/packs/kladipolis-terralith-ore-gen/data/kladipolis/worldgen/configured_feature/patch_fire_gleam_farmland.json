@@ -1,62 +1,45 @@
 {
-  "type": "minecraft:vegetation_patch",
+  "type": "minecraft:block_column",
   "config": {
-    "depth": 1,
-    "extra_bottom_block_chance": 0.0,
-    "extra_edge_column_chance": 0.0,
-    "ground_state": {
-      "type": "minecraft:simple_state_provider",
-      "state": {
-        "Name": "minecraft:farmland"
-      }
+    "direction": "down",
+    "allowed_placement": {
+      "type": "minecraft:true"
     },
-    "replaceable": "#minecraft:moss_replaceable",
-    "surface": "floor",
-    "vegetation_chance": 1.0,
-    "xz_radius": {
-      "type": "minecraft:constant",
-      "value": 0
-    },
-    "vertical_range": 1,
-    "vegetation_feature": {
-      "feature": {
-        "type": "minecraft:simple_block",
-        "config": {
-          "to_place": {
-            "type": "minecraft:simple_state_provider",
-            "state": {
-              "Name": "kladipolisutils:fire_gleam"
+    "prioritize_tip": false,
+    "layers": [
+      {
+        "height": 1,
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "kladipolisutil:fire_gleam",
+            "Properties": {
+              "age": "0"
             }
           }
         }
       },
-      "placement": [
-        {
-          "type": "minecraft:block_predicate_filter",
-          "predicate": {
-            "type": "minecraft:all_of",
-            "predicates": [
-              {
-                "type": "minecraft:matching_blocks",
-                "blocks": [
-                  "minecraft:air"
-                ]
-              },
-              {
-                "type": "minecraft:matching_blocks",
-                "offset": [
-                  0,
-                  -1,
-                  0
-                ],
-                "blocks": [
-                  "minecraft:farmland"
-                ]
-              }
-            ]
+      {
+        "height": 1,
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:farmland",
+            "Properties": {
+              "moisture": "7"
+            }
           }
         }
-      ]
-    }
+      },
+      {
+        "height": 1,
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:water"
+          }
+        }
+      }
+    ]
   }
 }
