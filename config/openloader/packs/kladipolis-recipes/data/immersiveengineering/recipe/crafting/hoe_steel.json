@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["II ", " S ", " S "],
+  "key": {
+    "I": { "item": "immersiveengineering:ingot_steel" },
+    "S": { "tag": "c:rods/wooden" }
+  },
+  "result": { "id": "immersiveengineering:hoe_steel", "count": 1 }
+}
