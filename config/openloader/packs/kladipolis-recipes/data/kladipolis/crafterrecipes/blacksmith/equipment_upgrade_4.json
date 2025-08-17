@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "crafter": "blacksmith_crafting",
+  "intermediate": "minecraft:air",
+  "research-id": "kladipolis:upgrades/equipment_upgrade_4",
+  "inputs": [
+    { "id": "minecraft:smooth_stone" },
+    { "count": "8", "id": "minecraft:diamond" }
+  ],
+  "result": {
+    "id": "kladipolisutil:equipment_upgrade_4"
+  }
+}

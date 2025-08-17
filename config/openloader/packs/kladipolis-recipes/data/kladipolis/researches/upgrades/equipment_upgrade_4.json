@@ -1,0 +1,22 @@
+{
+  "branch": "kladipolis:upgrades",
+  "icon": "kladipolisutil:equipment_upgrade_4",
+  "subtitle": "com.kladipolis.research.upgrades.equipment_upgrade_4.subtitle",
+  "parentResearch": "kladipolis:upgrades/equipment_upgrade_3",
+  "researchLevel": 4,
+
+  "sortOrder": 10,
+  "costs": [
+    {
+      "count": 64,
+      "item": "minecraft:diamond"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "blacksmith",
+      "level": 4
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "branch": "kladipolis:upgrades",
+  "icon": "kladipolisutil:equipment_upgrade_1",
+  "subtitle": "com.kladipolis.research.upgrades.equipment_upgrade_1.subtitle",
+  "researchLevel": 1,
+
+  "sortOrder": 10,
+  "costs": [
+    {
+      "count": 64,
+      "item": "minecraft:copper_ingot"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "blacksmith",
+      "level": 1
+    }
+  ]
+}

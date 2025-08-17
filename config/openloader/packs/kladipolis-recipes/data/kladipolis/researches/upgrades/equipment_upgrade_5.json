@@ -1,0 +1,26 @@
+{
+  "branch": "kladipolis:upgrades",
+  "icon": "kladipolisutil:equipment_upgrade_5",
+  "subtitle": "com.kladipolis.research.upgrades.equipment_upgrade_5.subtitle",
+  "parentResearch": "kladipolis:upgrades/equipment_upgrade_4",
+  "researchLevel": 5,
+
+  "sortOrder": 10,
+  "costs": [
+    {
+      "count": 64,
+      "item": "minecraft:emerald"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "blacksmith",
+      "level": 5
+    }
+  ]
+}
