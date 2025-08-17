@@ -1,0 +1,22 @@
+{
+  "branch": "kladipolis:upgrades",
+  "icon": "kladipolisutil:equipment_upgrade_2",
+  "subtitle": "com.kladipolis.research.upgrades.equipment_upgrade_2.subtitle",
+  "parentResearch": "minecolonies:upgrades/equipment_upgrade_1",
+  "researchLevel": 2,
+
+  "sortOrder": 10,
+  "costs": [
+    {
+      "count": 64,
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "blacksmith",
+      "level": 2
+    }
+  ]
+}
