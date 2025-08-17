@@ -49,3 +49,9 @@ config/storagedrawers-client.toml
 
 simplebackups
 backups
+config/bettertags-client.toml
+config/ftbchunks-client.snbt
+config/ftblibrary-client.snbt
+.mixin.out/class/net/minecraft/nbt/CompoundTag.class
+config/toughasnails/client.toml
+config/ftbquests-client.snbt
