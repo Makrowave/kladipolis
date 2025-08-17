@@ -2,7 +2,7 @@
   "branch": "kladipolis:upgrades",
   "icon": "kladipolisutil:equipment_upgrade_5",
   "subtitle": "com.kladipolis.research.upgrades.equipment_upgrade_5.subtitle",
-  "parentResearch": "minecolonies:upgrades/equipment_upgrade_4",
+  "parentResearch": "kladipolis:upgrades/equipment_upgrade_4",
   "researchLevel": 5,
 
   "sortOrder": 10,
@@ -13,7 +13,7 @@
     },
     {
       "count": 4,
-      "item": "minecraft:netherrite_ingot"
+      "item": "minecraft:netherite_ingot"
     }
   ],
   "requirements": [

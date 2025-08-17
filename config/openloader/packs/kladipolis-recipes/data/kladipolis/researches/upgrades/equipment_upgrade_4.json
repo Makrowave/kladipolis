@@ -2,7 +2,7 @@
   "branch": "kladipolis:upgrades",
   "icon": "kladipolisutil:equipment_upgrade_4",
   "subtitle": "com.kladipolis.research.upgrades.equipment_upgrade_4.subtitle",
-  "parentResearch": "minecolonies:upgrades/equipment_upgrade_3",
+  "parentResearch": "kladipolis:upgrades/equipment_upgrade_3",
   "researchLevel": 4,
 
   "sortOrder": 10,

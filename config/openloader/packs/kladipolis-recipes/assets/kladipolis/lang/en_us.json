@@ -1,4 +1,5 @@
 {
+  "com.kladipolis.research.upgrades.name": "Equipment",
   "com.kladipolis.research.upgrades.equipment_upgrade_1.name": "Upgrade Template I",
   "com.kladipolis.research.upgrades.equipment_upgrade_1.subtitle": "Allows blacksmith to craft tier I Upgrade Template used to craft level I equipment upgrades (enchantments).",
   "com.kladipolis.research.upgrades.equipment_upgrade_2.name": "Upgrade Template II",
