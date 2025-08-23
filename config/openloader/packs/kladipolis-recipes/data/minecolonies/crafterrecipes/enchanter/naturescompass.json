@@ -1,0 +1,28 @@
+{
+  "type": "recipe",
+  "crafter": "enchanter_custom",
+  "research-id": "minecolonies:technology/naturescompass",
+  "inputs": [
+    {
+      "count": 4,
+      "id": "minecraft:diamond"
+    },
+    {
+      "count": 4,
+      "id": "minecraft:oak_sapling"
+    },
+    {
+      "count": 4,
+      "id": "minecraft:oak_log"
+    },
+    {
+      "count": 1,
+      "id": "minecraft:compass"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "result": {
+    "id": "naturescompass:naturescompass"
+  },
+  "show-tooltip": true
+}

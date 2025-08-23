@@ -1,0 +1,48 @@
+{
+  "branch": "minecolonies:technology",
+  "icon": "minecolonies:scroll_highlight",
+  "parentResearch": "minecolonies:technology/alchemist",
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "enchanter",
+      "level": 5
+    }
+  ],
+  "costs": [
+    {
+      "count": 1,
+      "item": "minecraft:heart_of_the_sea"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:sponge"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:breeze_rod"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:glow_berries"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:torchflower"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:warped_fungus"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:crimson_fungus"
+    },
+    {
+      "count": 8,
+      "item": "minecraft:cornflower"
+    }
+  ],
+  "researchLevel": 4,
+  "sortOrder": 3
+}

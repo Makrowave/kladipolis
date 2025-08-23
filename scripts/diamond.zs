@@ -2,6 +2,8 @@ import crafttweaker.api.recipe.RecipeHolder;
 import crafttweaker.api.recipe.type.CraftingRecipe;
 import crafttweaker.api.ingredient.IIngredient;
 
+craftingTable.remove(<item:naturescompass:naturescompass>);
+
 val minecraftRecipes = craftingTable.getRecipesMatching((recipe as RecipeHolder<CraftingRecipe>) => {
     if(recipe.id.namespace != "minecraft") {
         return false;

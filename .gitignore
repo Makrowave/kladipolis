@@ -56,3 +56,4 @@ config/ftblibrary-client.snbt
 config/toughasnails/client.toml
 config/ftbquests-client.snbt
 .mixin.out/class/net/minecraft/nbt/CompoundTag.class
+config/naturescompass-client.toml
