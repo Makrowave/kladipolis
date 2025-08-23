@@ -1,0 +1,33 @@
+{
+  "branch": "minecolonies:technology",
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "mechanic",
+      "level": 1
+    }
+  ],
+  "costs": [
+    {
+      "count": 64,
+      "item": "minecolonies:gate_wood"
+    },
+    {
+      "count": 2,
+      "item": "minecolonies:ancienttome"
+    },
+    {
+      "count": 5,
+      "item": "minecraft:iron_block"
+    }
+  ],
+  "effects": [
+    {
+      "id": "minecolonies:effects/enhancesgatedurabilityaddition",
+      "level": 1
+    }
+  ],
+  "icon": "minecolonies:gate_wood",
+  "parentResearch": "minecolonies:technology/hittingiron",
+  "researchLevel": 2
+}

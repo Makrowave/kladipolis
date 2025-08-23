@@ -56,4 +56,7 @@ config/ftblibrary-client.snbt
 config/toughasnails/client.toml
 config/ftbquests-client.snbt
 .mixin.out/class/net/minecraft/nbt/CompoundTag.class
+config/lightmanscurrency-client.txt
+config/jei/ingredient-list-mod-sort-order.ini
+config/jei/recipe-category-sort-order.ini
 config/naturescompass-client.toml

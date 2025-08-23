@@ -45,6 +45,67 @@
 
     "!magistuarmory:diamond.*"
     
+    "minecraft:diamond_boots",
+
+    "!lightmanscurrency:vending_machin.*",
+
+    "!lightmanscurrency:freeze.*",
+
+    "lightmanscurrency:item_capacity_upgrade_1",
+    "lightmanscurrency:item_capacity_upgrade_2",
+    "lightmanscurrency:item_capacity_upgrade_3",
+    "lightmanscurrency:item_capacity_upgrade_4",
+
+    "lightmanscurrency:speed_upgrade_1",
+    "lightmanscurrency:speed_upgrade_2",
+    "lightmanscurrency:speed_upgrade_3",
+    "lightmanscurrency:speed_upgrade_4",
+    "lightmanscurrency:speed_upgrade_5",
+
+    "lightmanscurrency:offer_upgrade_1",
+    "lightmanscurrency:offer_upgrade_2",
+    "lightmanscurrency:offer_upgrade_3",
+    "lightmanscurrency:offer_upgrade_4",
+    "lightmanscurrency:offer_upgrade_5",
+    "lightmanscurrency:offer_upgrade_6",
+
+    "lightmanscurrency:interaction_upgrade_1",
+    "lightmanscurrency:interaction_upgrade_2",
+    "lightmanscurrency:interaction_upgrade_3",
+
+    "lightmanscurrency:coin_chest_magnet_upgrade_1",
+    "lightmanscurrency:coin_chest_magnet_upgrade_2",
+    "lightmanscurrency:coin_chest_magnet_upgrade_3",
+    "lightmanscurrency:coin_chest_magnet_upgrade_4",
+
+    "lightmanscurrency:coin_chest_bank_upgrade",
+
+    "lightmanscurrency:network_upgrade",
+    "lightmanscurrency:void_upgrade",
+
+    "lightmanscurrency:atm",
+    "lightmanscurrency:portable_atm",
+    "lightmanscurrency:cash_register",
+    "lightmanscurrency:terminal",
+    "lightmanscurrency:portable_terminal",
+    "lightmanscurrency:gem_terminal",
+    "lightmanscurrency:portable_gem_terminal",
+    "lightmanscurrency:item_trader_interface",
+    "lightmanscurrency:ticket_kiosk",
+    "lightmanscurrency:slot_machine",
+    "lightmanscurrency:command_trader",
+    "lightmanscurrency:command_trader",
+    "lightmanscurrency:item_trader_server_sml",
+    "lightmanscurrency:item_trader_server_med",
+    "lightmanscurrency:item_trader_server_lrg",
+    "lightmanscurrency:item_trader_server_xlrg",
+
+    "lightmanscurrency:wallet_emerald",
+    "lightmanscurrency:wallet_diamond",
+    "lightmanscurrency:wallet_netherite",
+    "lightmanscurrency:wallet_nether_star",
+    "lightmanscurrency:wallet_ender_dragon",
+    "lightmanscurrency:atm_card"
   ],
   
   // -----------------------------------------------------------
