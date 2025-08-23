@@ -15,5 +15,13 @@
   "com.kladipolis.research.medieval.drakkar.name": "Drakkars",
   "com.kladipolis.research.medieval.cog.name": "Cogs",
   "com.kladipolis.research.medieval.brigg.name": "Brigs",
-  "com.kladipolis.research.medieval.galley.name": "Galleys"
+  "com.kladipolis.research.medieval.galley.name": "Galleys",
+
+  "kladipolis.money.chain.dabloon": "Żkottish DaBloon",
+  "item.kladipolisutil.bloonik.plural": "Blooniki",
+  "item.kladipolisutil.dabloon.plural": "DaBloons",
+  "item.kladipolisutil.moabloon.plural": "MoaBloons",
+
+  "com.minecolonies.research.technology.dabloons.name": "DaBloons Currency",
+  "com.minecolonies.research.technology.dabloons.subtitle": "Unlocks Żkottish currency: Blooniki, DaBloons, MoaBloons"
 }
