@@ -31,25 +31,3 @@ for recipe in minecraftRecipes {
     print(recipe.id.toString());
     craftingTable.removeByName(recipe.id.toString());
 }
-
-
-
-val magistuRecipes = craftingTable.getRecipesMatching((recipe as RecipeHolder<CraftingRecipe>) => {
-    if(recipe.id.namespace != "magistuarmory") return false;
-    val ingredients = recipe.value.ingredients;
-
-    val found = false;
-    for ingredient in ingredients {
-        if(ingredient.matches(<item:minecraft:diamond>)) {
-            found = true;
-            print("diament - mag");
-        }
-    }
-
-    return found;
-});
-
-for recipe in magistuRecipes {
-    print(recipe.id.toString());
-    craftingTable.removeByName(recipe.id.toString());
-}
