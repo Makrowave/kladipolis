@@ -59,3 +59,4 @@ config/ftbquests-client.snbt
 config/lightmanscurrency-client.txt
 config/jei/ingredient-list-mod-sort-order.ini
 config/jei/recipe-category-sort-order.ini
+config/naturescompass-client.toml

@@ -2,6 +2,8 @@ import crafttweaker.api.recipe.RecipeHolder;
 import crafttweaker.api.recipe.type.CraftingRecipe;
 import crafttweaker.api.ingredient.IIngredient;
 
+craftingTable.remove(<item:naturescompass:naturescompass>);
+
 val minecraftRecipes = craftingTable.getRecipesMatching((recipe as RecipeHolder<CraftingRecipe>) => {
     if(recipe.id.namespace != "minecraft") {
         return false;
@@ -26,28 +28,6 @@ val minecraftRecipes = craftingTable.getRecipesMatching((recipe as RecipeHolder<
 });
 
 for recipe in minecraftRecipes {
-    print(recipe.id.toString());
-    craftingTable.removeByName(recipe.id.toString());
-}
-
-
-
-val magistuRecipes = craftingTable.getRecipesMatching((recipe as RecipeHolder<CraftingRecipe>) => {
-    if(recipe.id.namespace != "magistuarmory") return false;
-    val ingredients = recipe.value.ingredients;
-
-    val found = false;
-    for ingredient in ingredients {
-        if(ingredient.matches(<item:minecraft:diamond>)) {
-            found = true;
-            print("diament - mag");
-        }
-    }
-
-    return found;
-});
-
-for recipe in magistuRecipes {
     print(recipe.id.toString());
     craftingTable.removeByName(recipe.id.toString());
 }
