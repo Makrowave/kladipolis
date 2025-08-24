@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "mechanic_crafting",
+  "inputs": [
+    {
+      "count": 3,
+      "id": "immersiveengineering:nugget_silver"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "research-id": "minecolonies:technology/diors",
+  "result": {
+    "id": "kladipolisutil:cobby"
+  },
+  "show-tooltip": true
+}

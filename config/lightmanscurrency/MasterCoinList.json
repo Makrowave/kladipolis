@@ -666,32 +666,53 @@
       "InputType": "DEFAULT",
       "CoreChain": [
         {
-          "Coin": "kladipolisutil:bloonik",
-          "initial": {
-            "translate": "item.kladipolisutil.bloonik"
-          },
-          "plural": {
-            "translate": "item.kladipolisutil.bloonik.plural"
-          }
+          "Coin": "kladipolisutil:bloonik"
         },
         {
           "Coin": "kladipolisutil:dabloon",
-          "exchangeRate": 100,
-          "initial": {
-            "translate": "item.kladipolisutil.dabloon"
-          },
-          "plural": {
-            "translate": "item.kladipolisutil.dabloon.plural"
-          }
+          "exchangeRate": 100
         },
         {
           "Coin": "kladipolisutil:moabloon",
-          "exchangeRate": 100,
+          "exchangeRate": 100
+        }
+      ]
+    },
+    {
+      "chain": "dior",
+      "name": {
+        "translate": "kladipolis.money.chain.dior"
+      },
+      "displayType": "lightmanscurrency:coin",
+      "InputType": "DEFAULT",
+      "CoreChain": [
+        {
+          "Coin": "kladipolisutil:obong",
           "initial": {
-            "translate": "item.kladipolisutil.moabloon"
+            "translate": "item.kladipolisutil.obong.symbol"
           },
           "plural": {
-            "translate": "item.kladipolisutil.moabloon.plural"
+            "translate": "item.kladipolisutil.obong.symbol"
+          }
+        },
+        {
+          "Coin": "kladipolisutil:cobby",
+          "exchangeRate": 100,
+          "initial": {
+            "translate": "item.kladipolisutil.cobby.symbol"
+          },
+          "plural": {
+            "translate": "item.kladipolisutil.cobby.symbol"
+          }
+        },
+        {
+          "Coin": "kladipolisutil:dior",
+          "exchangeRate": 100,
+          "initial": {
+            "translate": "item.kladipolisutil.dior.symbol"
+          },
+          "plural": {
+            "translate": "item.kladipolisutil.dior.symbol"
           }
         }
       ]
