@@ -3,14 +3,14 @@
   "crafter": "mechanic_crafting",
   "inputs": [
     {
-      "count": 3,
-      "id": "immersiveengineering:nugget_silver"
+      "count": 1,
+      "id": "minecraft:gold_ingot"
     }
   ],
   "intermediate": "minecraft:air",
   "research-id": "minecolonies:technology/diors",
   "result": {
-    "id": "kladipolisutil:cobby"
+    "id": "kladipolisutil:dior"
   },
   "show-tooltip": true
 }
