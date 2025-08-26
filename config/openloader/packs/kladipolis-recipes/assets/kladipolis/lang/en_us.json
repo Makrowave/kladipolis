@@ -26,5 +26,13 @@
   "item.kladipolisutil.moabloon.plural": "MoaBloons",
 
   "com.minecolonies.research.technology.dabloons.name": "DaBloons Currency",
-  "com.minecolonies.research.technology.dabloons.subtitle": "Unlocks Żkottish currency: Blooniki, DaBloons, MoaBloons"
+  "com.minecolonies.research.technology.dabloons.subtitle": "Unlocks Żkottish currency: Bloonik, DaBloon, MoaBloon",
+
+  "com.minecolonies.research.technology.diors.name": "Dior Currency",
+  "com.minecolonies.research.technology.diors.subtitle": "Unlocks Dilfstone currency: Obong, Cobby, Dior",
+
+  "kladipolis.money.chain.dior": "Dilfstone Dior",
+  "item.kladipolisutil.obong.symbol": "ø",
+  "item.kladipolisutil.cobby.symbol": "₵",
+  "item.kladipolisutil.dior.symbol": "Đ"
 }
