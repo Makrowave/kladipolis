@@ -60,3 +60,8 @@ config/lightmanscurrency-client.txt
 config/jei/ingredient-list-mod-sort-order.ini
 config/jei/recipe-category-sort-order.ini
 config/naturescompass-client.toml
+config/NoChatReports/NCR-Client.json
+config/NoChatReports/NCR-Common.json
+config/NoChatReports/NCR-Encryption.json
+config/NoChatReports/NCR-ServerPreferences.json
+config/NoChatReports/README.md

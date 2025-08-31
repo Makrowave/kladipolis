@@ -25,7 +25,6 @@ val diamondItems = [
     <item:minecraft:diamond_axe>,
     <item:minecraft:diamond_shovel>,
     <item:minecraft:diamond_hoe>,
-    <item:minecraft:diamond>,
 ] as IIngredient[];
 
 val diamondItemsModifier = CommonLootModifiers.removeAll(diamondItems);

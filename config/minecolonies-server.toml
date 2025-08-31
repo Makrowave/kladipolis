@@ -123,7 +123,7 @@
 	# Range: 6 ~ 400
 	maxBarbarianSize = 80
 	#minecolonies.config.dobarbariansbreakthroughwalls.comment [Default: true]
-	dobarbariansbreakthroughwalls = true
+	dobarbariansbreakthroughwalls = false
 	#The average number of nights between raids. [Default: 14, min: 1, max: 50]
 	# Default: 14
 	# Range: 1 ~ 50
@@ -145,7 +145,7 @@
 	# Range: 0.1 ~ 5.0
 	guardhealthmult = 1.0
 	#Turn on MineColonies PVP mode (colonies can be destroyed and griefed under certain conditions). [Default: false]
-	pvp_mode = false
+	pvp_mode = true
 
 #All permission configuration options
 [permissions]
