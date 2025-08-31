@@ -1,6 +1,6 @@
 {
   "type": "recipe",
-  "crafter": "sawmill_crafting",
+  "crafter": "sawmill_custom",
   "inputs": [
     {
       "count": 80,
