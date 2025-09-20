@@ -1,6 +1,6 @@
 {
   "type": "recipe",
-  "crafter": "sawmill_custom",
+  "crafter": "lumberjack_custom",
   "inputs": [
     {
       "count": 40,
