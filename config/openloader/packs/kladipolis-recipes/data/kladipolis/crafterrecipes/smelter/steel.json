@@ -4,11 +4,11 @@
   "inputs": [
     {
       "id": "minecraft:iron_ingot",
-      "count": 3
+      "count": 2
     },
     {
       "id": "minecraft:coal",
-      "count": 8
+      "count": 4
     }
   ],
   "intermediate": "minecraft:air",
