@@ -5,7 +5,7 @@ import crafttweaker.api.loot.condition.RandomChanceLootCondition;
 import crafttweaker.api.ingredient.IIngredient;
 import crafttweaker.api.resource.ResourceLocation;
 
-val rareDropRate = 0.05
+val rareDropRate = 0.05;
 
 val rareSwords = [
     <item:simplyswords:caelestis> % rareDropRate,
@@ -22,30 +22,30 @@ val rareSwords = [
 ];
 
 
-val commonDropRate = 0.25
+val commonDropRate = 0.25;
 
 val commonSwords = [
-    <item:simplyswords:decaying_relic> % dropRate,
-    <item:simplyswords:dormant_relic> % dropRate,
-    <item:simplyswords:tainted_relic> % dropRate,
-    <item:simplyswords:righteous_relic> % dropRate,
-    <item:simplyswords:shadowsting> % dropRate,
-    <item:simplyswords:watching_warglaive> % dropRate,
-    <item:simplyswords:watcher_claymore> % dropRate,
-    <item:simplyswords:chompolotl> % dropRate,
-    <item:simplyswords:toxic_longsword> % dropRate,
-    <item:simplyswords:livyatan> % dropRate,
-    <item:simplyswords:frostfall> % dropRate,
-    <item:simplyswords:mjolnir> % dropRate,
-    <item:simplyswords:brimstone_claymore> % dropRate,
-    <item:simplyswords:hearthflame> % dropRate,
-    <item:simplyswords:soul_stealer> % dropRate,
-    <item:simplyswords:arcanethyst> % dropRate,
-    <item:simplyswords:soulrender> % dropRate,
-    <item:simplyswords:magiblade> % dropRate,
-    <item:simplyswords:slumbering_lichblade> % dropRate,
-    <item:simplyswords:waking_lichblade> % dropRate,
-    <item:simplyswords:awakening_lichblade> % dropRate
+    <item:simplyswords:decaying_relic> % commonDropRate,
+    <item:simplyswords:dormant_relic> % commonDropRate,
+    <item:simplyswords:tainted_relic> % commonDropRate,
+    <item:simplyswords:righteous_relic> % commonDropRate,
+    <item:simplyswords:shadowsting> % commonDropRate,
+    <item:simplyswords:watching_warglaive> % commonDropRate,
+    <item:simplyswords:watcher_claymore> % commonDropRate,
+    <item:simplyswords:chompolotl> % commonDropRate,
+    <item:simplyswords:toxic_longsword> % commonDropRate,
+    <item:simplyswords:livyatan> % commonDropRate,
+    <item:simplyswords:frostfall> % commonDropRate,
+    <item:simplyswords:mjolnir> % commonDropRate,
+    <item:simplyswords:brimstone_claymore> % commonDropRate,
+    <item:simplyswords:hearthflame> % commonDropRate,
+    <item:simplyswords:soulstealer> % commonDropRate,
+    <item:simplyswords:arcanethyst> % commonDropRate,
+    <item:simplyswords:soulrender> % commonDropRate,
+    <item:simplyswords:magiblade> % commonDropRate,
+    <item:simplyswords:slumbering_lichblade> % commonDropRate,
+    <item:simplyswords:waking_lichblade> % commonDropRate,
+    <item:simplyswords:awakened_lichblade> % commonDropRate
 ];
 
 
