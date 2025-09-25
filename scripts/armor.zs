@@ -71,7 +71,7 @@ var heavyArmor = {
     "head": [
         <item:magistuarmory:bascinet>,
         <item:minecraft:iron_helmet>,
-        // <item:magistuarmory:maximilian_helmet>,
+        <item:magistuarmory:maximilian_helmet>,
         <item:magistuarmory:stechhelm>,
         <item:magistuarmory:armet>,
         <item:magistuarmory:sallet>,
@@ -81,7 +81,7 @@ var heavyArmor = {
     "chest": [
         <item:magistuarmory:xivcenturyknight_chestplate>,
         <item:minecraft:iron_chestplate>,
-        // <item:magistuarmory:maximilian_chestplate>,
+        <item:magistuarmory:maximilian_chestplate>,
         <item:magistuarmory:jousting_chestplate>,
         <item:magistuarmory:knight_chestplate>,
         <item:magistuarmory:gothic_chestplate>,
@@ -92,7 +92,7 @@ var heavyArmor = {
     "legs": [
         <item:magistuarmory:xivcenturyknight_leggings>,
         <item:minecraft:iron_leggings>,
-        // <item:magistuarmory:maximilian_leggings>,
+        <item:magistuarmory:maximilian_leggings>,
         <item:magistuarmory:jousting_leggings>,
         <item:magistuarmory:knight_leggings>,
         <item:magistuarmory:gothic_leggings>,
@@ -102,7 +102,7 @@ var heavyArmor = {
     "feet": [
         <item:magistuarmory:xivcenturyknight_boots>,
         <item:minecraft:iron_boots>,
-        // <item:magistuarmory:maximilian_boots>,
+        <item:magistuarmory:maximilian_boots>,
         <item:magistuarmory:jousting_boots>,
         <item:magistuarmory:knight_boots>,
         <item:magistuarmory:gothic_boots>,

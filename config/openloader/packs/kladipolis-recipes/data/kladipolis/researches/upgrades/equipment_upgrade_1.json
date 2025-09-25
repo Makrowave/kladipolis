@@ -14,7 +14,7 @@
   "requirements": [
     {
       "type": "minecolonies:building",
-      "building": "blacksmith",
+      "building": "minecolonies:blacksmith",
       "level": 1
     }
   ]

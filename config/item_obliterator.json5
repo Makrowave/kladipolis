@@ -105,7 +105,14 @@
     "lightmanscurrency:wallet_netherite",
     "lightmanscurrency:wallet_nether_star",
     "lightmanscurrency:wallet_ender_dragon",
-    "lightmanscurrency:atm_card"
+    "lightmanscurrency:atm_card",
+
+    "!simplyswords:iron.*",
+    "!simplyswords:gold.*",
+    "!simplyswords:diamond.*",
+    "!simplyswords:netherite.*",
+    "!simplyswords:runic(?!_tablet).*",
+    "simplyswords:sword_on_a_stick"
   ],
   
   // -----------------------------------------------------------

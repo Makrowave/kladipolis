@@ -65,3 +65,7 @@ config/NoChatReports/NCR-Common.json
 config/NoChatReports/NCR-Encryption.json
 config/NoChatReports/NCR-ServerPreferences.json
 config/NoChatReports/README.md
+config/dummmmmmy-client.toml
+config/fzzy_config/keybinds.toml
+config/fzzy_config/search.toml
+config/simplyswords/general.toml
