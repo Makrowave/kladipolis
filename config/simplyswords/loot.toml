@@ -1,0 +1,70 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+enableLootDrops = true
+enableLootInVillages = false
+standardLootTableWeight = 0.5
+rareLootTableWeight = 0.0
+runicLootTableWeight = 0.0
+uniqueLootTableWeight = 0.3
+enableContainedRemnants = true
+disabledUniqueWeaponLoot = [
+    "simplyswords:caelestis",
+    "simplyswords:soulpyre",
+    "simplyswords:ribboncleaver",
+    "simplyswords:flamewind",
+    "simplyswords:wickpiercer",
+    "simplyswords:hiveheart",
+    "simplyswords:waxweaver",
+    "simplyswords:molten_edge",
+    "simplyswords:soulkeeper",
+    "simplyswords:storms_edge",
+    "simplyswords:whisperwind"
+]
+
+[uniqueLootTableOptions]
+"minecraft:entities/wither" = 5.0
+"minecraft:entities/ender_dragon" = 50.0
+"minecraft:chests/ruined_portal" = 0.0
+"minecraft:chests/village/village_armorer" = 0.0
+"minecraft:chests/village/village_butcher" = 0.0
+"minecraft:chests/village/village_cartographer" = 0.0
+"minecraft:chests/village/village_desert_house" = 0.0
+"minecraft:chests/village/village_fisher" = 0.0
+"minecraft:chests/village/village_fletcher" = 0.0
+"minecraft:chests/village/village_mason" = 0.0
+"minecraft:chests/village/village_plains_house" = 0.0
+"minecraft:chests/village/village_savanna_house" = 0.0
+"minecraft:chests/village/village_shepherd" = 0.0
+"minecraft:chests/village/village_snowy_house" = 0.0
+"minecraft:chests/village/village_taiga_house" = 0.0
+"minecraft:chests/village/village_tannery" = 0.0
+"minecraft:chests/village/village_temple" = 0.0
+"minecraft:chests/village/village_toolsmith" = 0.0
+"minecraft:chests/village/village_weaponsmith" = 0.0
+"mvs:jungle_tower" = 10.0
+"mvs:abandoned" = 1.0
+"mvs:cart" = 5.0
+"mvs:cartographer_tower" = 1.0
+"mvs:cathedral_base" = 2.0
+"mvs:cathedral_common" = 5.0
+"mvs:cathedral_rare" = 12.0
+"mvs:crystal" = 100.0
+"mvs:empty" = 0.0
+"mvs:floating_islands" = 15.0
+"mvs:general" = 0.25
+"mvs:houses_books" = 0.0
+"mvs:houses_common" = 1.0
+"mvs:houses_desert" = 3.0
+"mvs:houses_flower" = 0.0
+"mvs:houses_rare" = 20.0
+"mvs:houses_uncommon" = 5.0
+"mvs:large_carts" = 0.0
+"mvs:large_carts_2" = 0.0
+"mvs:mineshaft/common" = 100.0
+"mvs:mineshaft/pot" = 0.0
+"mvs:mineshaft/rare" = 100.0
+"mvs:mineshaft/uncommon" = 100.0
+"mvs:mushroom_pond" = 5.0
+"mvs:pillager" = 12.0
+"mvs:rare" = 33.0
+"mvs:swamps" = 5.0
